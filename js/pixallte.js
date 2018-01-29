@@ -1,4 +1,4 @@
-$(function() {
+// $(function() {
     // Bind events and initialize plugin
 
 

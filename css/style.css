@@ -1773,6 +1773,7 @@ div#fullpage {
   opacity: .7;
   z-index: -1;
 }
+
 img.explode-img {
   vertical-align: middle;
     margin: auto;
@@ -1802,7 +1803,9 @@ img.explode-img {
   transform: none !important;
   opacity: 1 !important;
 }
-
+.fp-section.fp-table, .fp-slide.fp-table {
+  overflow: hidden;
+}
 
 
 
