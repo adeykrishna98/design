@@ -1770,8 +1770,37 @@ div#fullpage {
   background-repeat: no-repeat !important;
   background-size: contain !important;
   top: 0;
-  opacity: .3;
+  opacity: .7;
   z-index: -1;
+}
+img.explode-img {
+  vertical-align: middle;
+    margin: auto;
+    width: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 500px;
+    width: 500px;
+    position: absolute;
+}
+.explode {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+}
+.pixellate-lock img {
+  visibility: visible !important;
+}
+.pixellate-lock .pixellate-pixel {
+  transform: none !important;
+  opacity: 1 !important;
 }
 
 
