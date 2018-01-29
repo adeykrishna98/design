@@ -1,0 +1,47 @@
+body{
+	margin: 0px;
+}
+h1{
+	margin: 0px;
+}
+.section{
+	text-align:center;
+}
+#section0,
+#section1,
+#section2,
+#section3{
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#fullpage .section h1{
+	color: #fff;
+}
+// #section0{
+// 	background-image: url(../imgs/bg1.jpg);
+// }
+// #section1{
+// 	background-image: url(../imgs/bg2.jpg);
+// 	padding: 0% 0 0 0;
+// }
+// #section2{
+// 	background-image: url(../imgs/bg3.jpg);
+// 	padding: 0% 0 0 0;
+// }
+// #section3{
+// 	background-image: url(../imgs/bg4.jpg);
+// 	padding: 0% 0 0 0;
+// }
+
+
+
+
+
+
+
+
+
+
+
+

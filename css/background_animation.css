@@ -1,0 +1,121 @@
+header{
+  width: 100%;
+}
+.full_overlay.menu{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  left: -100%;
+  background-color: #000 !important;
+  border-radius: 0px !important;
+  opacity: 0.9;
+  z-index: 32;
+  cursor: pointer;
+  transition: transform 0ms ease;
+  top: 0px !important;
+}
+
+
+
+/*text animation*/
+
+.menu {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50px;
+  height: 50px;
+  /*background-color: white;*/
+  border-radius: 50%;
+  transition: transform 250ms ease;
+  cursor: pointer;
+  z-index: 200;
+}
+
+.menu span {
+  position: relative;
+  display: block;
+  width: 50%;
+  height: 2px;
+  background-color: #f2f2f2;
+  float: left;
+  transform-origin: center center;
+  transition: transform 250ms ease;
+  z-index: 200;
+}
+
+.menu span:nth-of-type(1) {
+  transform: translateY(-5px);
+}
+
+.menu span:nth-of-type(3) {
+  transform: translateY(5px);
+}
+
+#menu {
+  display: none;
+}
+
+#menu:checked ~ .menu {
+  background-color: transparent;
+  transform: rotate(360deg);
+  transition: transform 250ms ease;
+}
+
+#menu:checked ~ .menu span {
+  background-color: white;
+  transition: transform 250ms ease;
+}
+
+#menu:checked ~ .menu span:nth-of-type(1) {
+  transform: translateY(1px) rotate(45deg);
+}
+
+#menu:checked ~ .menu span:nth-of-type(2) {
+  display: none;
+}
+
+#menu:checked ~ .menu span:nth-of-type(3) {
+  transform: translateY(-1px) rotate(-45deg);
+}
+
+#menu:checked ~ .nav {
+  left: 0px;
+  transition: left 1200ms ease;
+}
+#menu:checked ~ .full_overlay{
+  left: 0px;
+  transition: left 0ms ease;
+}
+
+#menu:checked ~ main {
+  transform: translateX(250px);
+  transition: transform 500ms ease;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #1b1b1b;
+  transition: left 500ms ease;
+  z-index: 111;
+  box-shadow: -19px 4px 28px 1px rgba(0, 0, 0, 0.1)
+}
+
+
+
+
+
+
+
+
+

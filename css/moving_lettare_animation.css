@@ -1,0 +1,9 @@
+.ml21 {
+  /*font-weight: 900;*/
+  /*font-size: 3.5em;*/
+}
+
+.fp-viewing-0 .ml20 .letter, .fp-viewing-1 .ml21 .letter, .fp-viewing-2 .ml22 .letter, .fp-viewing-3 .ml23 .letter, .fp-viewing-4 .ml24 .letter {
+  display: inline-block;
+  /*line-height: 1em;*/
+}
