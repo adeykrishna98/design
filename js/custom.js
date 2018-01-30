@@ -7,7 +7,7 @@ $(function(){
             console.log(images[i].src)
         }
     }
-    
+
     //-- usage --//
     preload(
         "../mantra_design_copy/imgs/11.png",
@@ -19,23 +19,23 @@ $(function(){
     // });
 
 
-    
+
     // $('section').hasClass('active',function(){
     //     console.log('aaaaa');
     // });
     // $(window).on('resize scroll', function() {
     //     console.log('aaa');
     //     });
-        
-    
+
+
     $('.cool-link').mouseenter(function(){
         var id = $(this).attr('id');
-        $('.back-image-anim').css({'background':'url(imgs/'+ id +'.png','transform': 'scale(1,1)','transition-duration':'500ms','opacity':'0.2'});
+        $('.back-image-anim').css({'background':'url(imgs/'+ id +'.png','transform': 'scale(1.2,1.2)','transition-duration':'500ms','opacity':'0.2'});
     });
     $('.cool-link').mouseleave(function(){
         var id = $(this).attr('id');
         console.log(id);
-        $('.back-image-anim').css({'transform':'scale(.95,.95)','opacity':'0','transition-duration':'500ms'});
+        $('.back-image-anim').css({'transform':'scale(1,1)','opacity':'0','transition-duration':'0ms'});
     });
 
 });
@@ -52,5 +52,5 @@ $('.section.fp-section').on('classadded', function(ev, newClasses) {
     $('#banner_page').addClass('banner_page');
     setTimeout(function(){  $("#banner_page").removeClass("banner_page"); }, 1500);
     };
-    
+
 });

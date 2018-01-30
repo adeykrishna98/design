@@ -2,20 +2,20 @@
     // Bind events and initialize plugin
 
 
-    $('#showcase_batn_text_different').hover(function(){
+    $('#showcase_batn_text_different').click(function(){
         $('.explode')
         .on('pixellate-exploded', function() {
         //   var self = this;
         //   setTimeout(function() {
         //     $(self).pixellate('in');
         //   }, 500);
-        // })
-        // .on('pixellate-imploded', function() {
-        //   var self = this;
-        //   setTimeout(function() {
-        //    $(self).pixellate('out');
-        //   }, 500);
-        // })
+        })
+        .on('pixellate-imploded', function() {
+          var self = this;
+          setTimeout(function() {
+           $(self).pixellate('out');
+          }, 500);
+        })
         .pixellate()
     });
     });

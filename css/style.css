@@ -1188,13 +1188,10 @@ video{
     color: #f1d51d;
     text-decoration: none;
 }
-
+.nav-elem{
+  color: #f1d51d;
+}
 .cool-link::after {
-    background-color: #f1d51d;
-    position: absolute;
-    top: calc(50%);
-    left: -15px;
-    right: -15px;
     content: '';
     display: block;
     width: 0;
@@ -1202,8 +1199,15 @@ video{
     /* background: #fff; */
     transition: width .3s;
 }
+.nav-elem::after {
+  background-color: #f1d51d;
+  position: absolute;
+  top: calc(50%);
+  left: -15px;
+  right: -15px;
+}
 
-.cool-link:hover::after {
+.nav-elem:hover::after {
     width: 110%;
     /* //transition: width .3s; */
 }
@@ -1221,7 +1225,8 @@ video{
 .side_menue_nav_ul li{
   display: block;
   padding-bottom: 0px;
-  padding-bottom: 4em;
+  height: 115px;
+  line-height: 100px;
 }
 /* .side_menue_nav_ul li a:hover{
   color: #fff;
@@ -1782,12 +1787,20 @@ div#fullpage {
     right: 0;
     bottom: 0;
 }
-
+video#myVideo {
+    visibility: hidden;
+}
+.active.fp-completely #myVideo {
+    visibility: visible;
+}
 .myBackground {
+  /* background-image: url(../imgs/33.png); */
   transition: transform 500ms;
+  background-image: none;
 }
 
-.fp-completely .myBackground {
+.active.fp-completely .myBackground {
+  background-image: url(../imgs/33.png);
   transition-delay: 1500ms;
   transform: scale(1.2);
 }
@@ -1801,6 +1814,10 @@ div#fullpage {
     left: 0;
     right: 0;
     background-repeat: no-repeat;
+    visibility: hidden;
+}
+.active.fp-completely .pixellate-image {
+    visibility: visible;
 }
 .back-image {
   width: 100%;
@@ -1821,9 +1838,10 @@ img.explode-img {
     right: 0;
     top: 0;
     bottom: 0;
-    height: 500px;
-    width: 500px;
+    height: 100vh;
+    width: auto;
     position: absolute;
+    overflow: hidden;;
 }
 .explode {
   position: absolute;
@@ -1831,9 +1849,10 @@ img.explode-img {
   bottom: 0;
   left: 0;
   right: 0;
-  width: 500px;
-  height: 500px;
+  width: 66%;
+  height: 100vh;
   margin: auto;
+  overflow: hidden;
 }
 .pixellate-lock img {
   visibility: visible !important;
