@@ -1886,6 +1886,7 @@ img.explode-img {
     width: 80%;
     margin: auto;
 }
+
 .textpara {
   font-size: 14px;
   padding-bottom: 2em;
@@ -1920,6 +1921,18 @@ button.fs-continue.button_btn.animated-button.thar-one.fs-show {
     width: 80%;
     margin: auto;
   }
+  img.explode-img {
+ 
+  height: auto;
+  width: 100%;
+
+}
+.explode {
+ 
+  width: 100%;
+  height: auto;
+
+}
   .collaborate_discription h5,.collaborate_discription h5 {
     font-size: 18px;
     padding-bottom: 0px;
