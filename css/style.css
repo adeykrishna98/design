@@ -1229,7 +1229,7 @@ video{
   text-transform: uppercase;
   font-family: -webkit-body;
   letter-spacing: 0px;
-  
+
 =======
     color: #95989A;
     font-size: 41px;
@@ -1727,7 +1727,7 @@ video{
    /* transform-origin: right 50% 0px;transform: translate3d(0px, 0px, 0px) scale(0, 1); */
    animation-name: myamin;
    animation-duration: 1500ms;
-   animation-timing-function:ease-in-out; 
+   animation-timing-function:ease-in-out;
 }
 
 
@@ -1923,9 +1923,28 @@ span.pag__text {
   margin-bottom: 14px;
 }
 
-
-
 }
+
+.anime-opacity{
+  transition: opacity 0.5s ease;
+  transition-delay: 1s;
+  opacity: 0;
+}
+.fp-completely .anime-opacity{
+  opacity: 1;
+}
+.fp-tableCell .headertitle,.fp-tableCell .textpara,.headertitle_last {
+  position: relative;
+  transition: all 0.5s ease;
+  transition-delay: 1s;
+  opacity: 0;
+  left: -100px;
+}
+.fp-completely .fp-tableCell .headertitle,.fp-completely .fp-tableCell .textpara,.fp-completely .headertitle_last {
+  opacity: 1;
+  left: 0;
+}
+
 @media only screen and (max-width: 321px){
 .edu_full_screen_img_body.mantra_bg {
   height: 215px;
