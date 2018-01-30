@@ -43,7 +43,7 @@ $(function(){
 
     $('.cool-link').mouseenter(function(){
         var id = $(this).attr('id');
-        $('.back-image-anim').css({'background':'url(imgs/'+ id +'.png','transform': 'scale(1.2,1.2)','transition-duration':'500ms','opacity':'0.2'});
+        $('.back-image-anim').css({'background':'url(imgs/'+ id +'.png','transform': 'scale(1.05,1.05)','transition-duration':'1000ms','opacity':'0.2'});
     });
     $('.cool-link').mouseleave(function(){
         var id = $(this).attr('id');
