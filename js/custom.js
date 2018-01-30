@@ -1,4 +1,17 @@
 $(function(){
+    $(window).load(function () {
+		$('.section.fp-section').hide();
+		setTimeout(function () {
+		$('.loader').fadeOut();
+		$('#banner_page').addClass('banner_page');
+    	setTimeout(function(){ 
+			 $("#banner_page").removeClass("banner_page"); 
+			 $('.section.fp-section').show();
+			}, 1500);
+		
+		}, 3000);
+
+	});
     var images = [];
     function preload() {
         for (var i = 0; i < arguments.length; i++) {
