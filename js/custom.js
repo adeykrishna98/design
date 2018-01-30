@@ -48,7 +48,7 @@ $(function(){
     $('.cool-link').mouseleave(function(){
         var id = $(this).attr('id');
         console.log(id);
-        $('.back-image-anim').css({'transform':'scale(1,1)','opacity':'0','transition-duration':'0ms'});
+        $('.back-image-anim').css({'transform':'scale(1,1)','opacity':'0','transition-duration':'0ms','background':"black"});
     });
 
 });
