@@ -1734,7 +1734,7 @@ video{
 
 @keyframes myamin {
   0%   { transform-origin: left 50% 0px;transform: translate3d(0px, 0px, 0px) scale(0, 1);}
-  30%   { transform-origin: left 50% 0px;transform: translate3d(0px, 0px, 0px) scale(1, 1);}
+  45%   { transform-origin: left 50% 0px;transform: translate3d(0px, 0px, 0px) scale(1, 1);}
   50% {transform-origin: right 50% 0px;transform: translate3d(0px, 0px, 0px) scale(1, 1);}
   60%   {  transform-origin: right 50% 0px;transform: translate3d(0px, 0px, 0px) scale(1, 1);}
   100% {transform-origin: right 50% 0px;transform: translate3d(0px, 0px, 0px) scale(0, 1);}
@@ -1752,7 +1752,7 @@ video{
    /* transform-origin: right 50% 0px;transform: translate3d(0px, 0px, 0px) scale(0, 1); */
    animation-name: myamin;
    animation-duration: 1500ms;
-   animation-timing-function:ease-in-out;
+   animation-timing-function:cubic-bezier(1,0,0,1);
 }
 
 
