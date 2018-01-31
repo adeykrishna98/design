@@ -1921,14 +1921,18 @@ button.fs-continue.button_btn.animated-button.thar-one.fs-show {
     width: 80%;
     margin: auto;
   }
+
+  .credits_copy_right {
+    bottom: 2%;
+  }
   img.explode-img {
- 
+
   height: auto;
   width: 100%;
 
 }
 .explode {
- 
+
   width: 100%;
   height: auto;
 
@@ -1954,6 +1958,8 @@ button.fs-continue.button_btn.animated-button.thar-one.fs-show {
   }
   .side_menue_nav_ul li {
     padding-bottom: 1.5em;
+    height: initial;
+    line-height: 60px;
 }
 .side_menue_nav_ul li a {
   font-size: 28px;
@@ -2000,15 +2006,27 @@ span.pag__text {
 .edu_full_screen_img_body.mantra_bg {
   height: 215px;
 }
+.textpara_last {
+  padding-bottom: 0;
+}
+h1.headertitle_last {
+  margin-bottom: 0;
+}
 }
 @media only screen and (min-width: 321px) and (max-width:376px){
   .edu_full_screen_img_body.mantra_bg {
     height: 234px;
   }
+  .textpara_last {
+    padding-bottom: 0;
+  }
   }
   @media only screen and (min-width: 376px) and (max-width:426px){
     .edu_full_screen_img_body.mantra_bg {
       height: 281px;
+    }
+    .textpara_last {
+      padding-bottom: 0.2em;
     }
   }
   @media only screen and (min-width: 426px) and (max-width:769px){
