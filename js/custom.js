@@ -23,9 +23,9 @@ $(function(){
 
     //-- usage --//
     preload(
-        "../mantra_design_copy/imgs/11.png",
-        "../mantra_design_copy/imgs/22.png",
-        "../mantra_design_copy/imgs/33.png",
+        "../design/imgs/11.png",
+        "../design/imgs/22.png",
+        "../design/imgs/33.png",
     )
     // $(".section.fp-section").hasClass('active',function(){
     //     console.log('aa');
@@ -40,7 +40,13 @@ $(function(){
     //     console.log('aaa');
     //     });
 
-
+    $("#my_hamburger").click(function(){
+        console.log('adsd');
+        $('#my_hamburger').addClass('is_open');
+        $('#banner_page').addClass('banner_page');
+        setTimeout(function(){  $("#banner_page").removeClass("banner_page"); }, 1500);
+    
+    });
     $('.cool-link').mouseenter(function(){
         var id = $(this).attr('id');
         $('.back-image-anim').css({'background':'url(imgs/'+ id +'.png','transform': 'scale(1.05,1.05)','transition-duration':'1000ms','opacity':'0.2'});

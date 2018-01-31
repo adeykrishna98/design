@@ -23,17 +23,7 @@ function noise(ctx) {
     ctx.putImageData(idata, 0, 0);
 }
 
-$("#my_hamburger").click(function(){
-    $('#my_hamburger').addClass('is_open');
-    // $('#banner_page').removeClass('banner_page');
-    $('#banner_page').addClass('banner_page');
-    setTimeout(function(){  $("#banner_page").removeClass("banner_page"); }, 1500);
-    // if($('#my_hamburger').hasClass('is_open')){
 
-    // }else{
-
-    // };
-});
 
 // $('section').on('change','.active', function(){
 //     $('#banner_page').addClass('banner_page');
