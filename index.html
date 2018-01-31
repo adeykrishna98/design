@@ -445,11 +445,22 @@
 	<script src="js/fullpagescrolltextanimation.js"></script>
 	<script src="js/custom.js"></script>
 	<script src="js/pixallte.js"></script>
-	
-	
-	
-	
 	<script src="js/background_animation.js"></script>
+	<script>
+		$(window).load(function () {
+		$('.section.fp-section').hide();
+		setTimeout(function () {
+		$('.loader').fadeOut();
+		$('#banner_page').addClass('banner_page');
+    	setTimeout(function(){ 
+			 $("#banner_page").removeClass("banner_page"); 
+			 $('.section.fp-section').show();
+			}, 1500);
+		
+		}, 3000);
+
+	});
+	</script>
 
 
 </body>
