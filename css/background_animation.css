@@ -85,7 +85,7 @@ header{
 
 #menu:checked ~ .nav {
   left: 0px;
-  transition: left 1200ms ease;
+  transition: left 1200ms ease 100ms;
 }
 #menu:checked ~ .full_overlay{
   left: 0px;
@@ -106,16 +106,7 @@ header{
   margin: 0;
   padding: 0;
   background-color: #1b1b1b;
-  transition: left 500ms ease;
+  transition: left 500ms ease 500ms;
   z-index: 111;
   box-shadow: -19px 4px 28px 1px rgba(0, 0, 0, 0.1)
 }
-
-
-
-
-
-
-
-
-
