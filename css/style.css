@@ -1226,7 +1226,7 @@ video{
   display: block;
   padding-bottom: 0px;
   height: 115px;
-  line-height: 100px;
+  line-height: 45px;
 }
 /* .side_menue_nav_ul li a:hover{
   color: #fff;
@@ -1234,21 +1234,11 @@ video{
 .side_menue_nav_ul li a{
   position: relative;
   text-decoration: none;
-<<<<<<< HEAD
-  color: #95989A;
-  font-size: 60px;
-  text-transform: uppercase;
-  font-family: -webkit-body;
-  letter-spacing: 0px;
-
-=======
     color: #95989A;
     font-size: 41px;
     text-transform: uppercase;
     font-family: "proximanova-semibold-webfont";
     letter-spacing: 6px;
-
->>>>>>> bdf6cf75bd75d88974ff6b7dd5cca07111389768
 }
 
 .side_menue_nav_ul li a:hover{
