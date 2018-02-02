@@ -407,6 +407,7 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  align-items: center;
 }
 
 .pag__text {
@@ -459,5 +460,11 @@ html {
   }
   .pag-link__prev {
         left: -50px;
+  }
+}
+
+@media only screen and (max-width: 426px){
+  .next_text a{
+    width: 100px;
   }
 }

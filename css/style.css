@@ -1987,7 +1987,6 @@ button.fs-continue.button_btn.animated-button.thar-one.fs-show {
 }
 span.pag__text {
     font-size: 16px;
-    padding-top: 11px;
 }
 .customized_client_body {
   width: 90%;
@@ -2020,19 +2019,22 @@ span.pag__text {
 }
 
 @media only screen and (max-width: 321px){
-.edu_full_screen_img_body.mantra_bg {
-  height: 215px;
-}
-.textpara_last {
-  padding-bottom: 0;
-}
-h1.headertitle_last {
-  margin-bottom: 0;
-}
-.take_your_busness{
-  width: 80%;
-  margin: auto;
-}
+  .edu_full_screen_img_body.mantra_bg {
+    height: 215px;
+  }
+  .textpara_last {
+    padding-bottom: 0;
+  }
+  h1.headertitle_last {
+    margin-bottom: 0;
+  }
+  .take_your_busness{
+    width: 80%;
+    margin: auto;
+  }
+  .show_cse_text.edu.ui_ux_show_case a {
+    width: 330px;
+  }
 }
 @media only screen and (min-width: 321px) and (max-width:376px){
   .edu_full_screen_img_body.mantra_bg {
@@ -2061,5 +2063,8 @@ h1.headertitle_last {
   @media only screen and (min-width: 426px) and (max-width:769px){
     .edu_full_screen_img_body.mantra_bg {
       height: 420px;
+    }
+    .experience_body_right {
+      padding-left: 15px;
     }
   }
