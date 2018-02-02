@@ -466,5 +466,6 @@ html {
 @media only screen and (max-width: 426px){
   .next_text a{
     width: 100px;
+    top: 20px;
   }
 }

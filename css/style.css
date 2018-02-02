@@ -2067,4 +2067,7 @@ span.pag__text {
     .experience_body_right {
       padding-left: 15px;
     }
+    .client_body{
+      margin: 0;
+    }
   }
