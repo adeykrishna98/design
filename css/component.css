@@ -879,7 +879,7 @@ input[type=text]::-ms-clear {
 	}*/
 
 	.fs-message-error {
-		bottom: 1.75em;
+		bottom: 2.3em;
 		left: 0;
 		padding: 0 90px 0 2em;
 		width: 100%;
