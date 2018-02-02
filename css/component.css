@@ -96,7 +96,7 @@
 
 /* Visibility control of elements */
 .fs-form-full .fs-fields > li,
-.fs-nav-dots, 
+.fs-nav-dots,
 .fs-progress,
 .fs-numbers,
 button.fs-continue,
@@ -892,4 +892,10 @@ input[type=text]::-ms-clear {
 		-webkit-transform: translate3d(0,0,0);
 		transform: translate3d(0,0,0);
 	}
+}
+
+@media only screen and (max-width: 376px){
+.fs-fields textarea {
+  height: 170px;
+}
 }
