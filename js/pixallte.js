@@ -6,9 +6,9 @@
         $('.explode')
         .on('pixellate-exploded', function() {
           var self = this;
-          setTimeout(function() {
-            $(self).pixellate('in');
-          }, 500);
+          // setTimeout(function() {
+          //   $(self).pixellate('in');
+          // }, 500);
         })
         // .on('pixellate-imploded', function() {
         //   var self = this;
