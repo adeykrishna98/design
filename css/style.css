@@ -1254,7 +1254,7 @@ video{
 
 .experience_body_left.our_app h1 {
   text-align: center;
-  font-size: 61px;
+  font-size: 36px;
   text-transform: capitalize;
   color: rgba(158, 158, 158, 0.47);
   margin-top: 6px;
@@ -1265,7 +1265,9 @@ video{
   margin-bottom: 0;
 }
 
-
+.fs-form-overview .fs-fields input:focus {
+  background-color: #0c0c0c !important;
+}
 /*edu_sports_details_body*/
 .edu_sports_details_body{
   background-color: #000;
