@@ -1685,8 +1685,69 @@ video{
   opacity: 1;
   left: 0;
 }
+.line_height{
+    height: 0px;
+    width: 1px;
+    border-left: 1px solid white;
+    display: block;
+    margin-left: 13px;
+}
+#fp-nav ul li {
+  height: 100% !important;
+  min-height: 30px;
+}
+#fp-nav ul li a.active .line_height{
+  height: 100px;
+    transition: 3500ms ease-out;
+    margin-top: 15px;
+    margin-bottom: 10px;
 
-
+}
+#fp-nav ul li a span {
+  border-radius: 0;
+  position: absolute;
+  z-index: 1;
+  height: 16px;
+  width: 16px;
+  border: 0;
+  background: transparent;
+  left: 50%;
+  top: 50%;
+  margin: -2px 0 0 -2px;
+  -webkit-transition: all .1s ease-in-out;
+  -moz-transition: all .1s ease-in-out;
+  -o-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+  transform: rotate(133deg);
+  border: 2px solid white;
+}
+#fp-nav ul li a.active span, #fp-nav ul li:hover a.active span{
+  background: transparent;
+  top: 0;
+  border-radius: 0;
+  border: 2px solid yellow;
+  display: block;
+  position: relative;
+}
+#fp-nav ul li a.active span, #fp-nav ul li:hover a.active span {
+      background: transparent;
+    top: 0;
+    border-radius: 0;
+    border: 2px solid yellow;
+    display: block;
+    position: relative;
+}
+#fp-nav ul li:hover a span {
+  width: 16px;
+  height: 16px;
+  margin: 0px 0 0 -2px;
+}
+#fp-nav ul li a.active span, #fp-nav ul li:hover a.active span{
+  height: 16px;
+  width: 16px;
+  margin: -5px 0 0 -2px;
+  border-radius: 0%;
+}
 @media (min-width: 1200px){
   #container.container{
       width: 992px;
@@ -1770,9 +1831,10 @@ video{
 
 
 
-#fp-nav ul li a.active span, .fp-slidesNav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li:hover a.active span {
+/* #fp-nav ul li a.active span, .fp-slidesNav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li:hover a.active span {
 background: #f1d51d;
-}
+top: 0;
+} */
 /* div#fullpage {
   transition: all 1200ms cubic-bezier(0.25, 0.46, 0.45, 0.94) !important;
 } */
