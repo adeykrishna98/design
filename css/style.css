@@ -1769,7 +1769,7 @@ video{
 
 .active.fp-completely .reveal-text {
 position: relative;
-font-size: 12px;
+font-size: 24px;
 display: block;
 margin: 0;
 -webkit-user-select: none;
@@ -1893,7 +1893,7 @@ to {
 
 .active.fp-completely .reveal-header {
 position: relative;
-font-size: 50px;
+font-size: 75px;
 display: block;
 -webkit-user-select: none;
    -moz-user-select: none;
@@ -1902,7 +1902,7 @@ display: block;
 -webkit-animation-name: reveal-header;
         animation-name: reveal-header;
 color:yellow;
-white-space: nowrap;
+/* white-space: nowrap; */
 cursor: default
 
 }
@@ -2006,7 +2006,7 @@ to {
 
 .fixed_content{
   position: absolute;
-  bottom: 0;
+  bottom: 10px;
 }
 
 
