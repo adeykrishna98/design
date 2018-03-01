@@ -1688,8 +1688,8 @@ video{
 }
 .line_height{
     height: 0px;
-    width: 1px;
-    border-left: 1px solid white;
+    width: 2px;
+    border-left: 2px solid white;
     display: block;
     margin-left: 13px;
 }
@@ -1699,7 +1699,7 @@ video{
 }
 #fp-nav ul li a.active .line_height{
   height: 100px;
-    transition: 3500ms ease-out;
+    transition: all 1500ms ease;
     margin-top: 15px;
     margin-bottom: 10px;
 
