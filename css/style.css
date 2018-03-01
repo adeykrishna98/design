@@ -1162,6 +1162,7 @@ video{
   font-size: 4em;
   font-family: "proximanova-bold-webfont";
   color: #f1d51d;
+  max-width: 650px;
 }
 .headertitle_last{
   font-size: 4em;
@@ -1770,6 +1771,7 @@ video{
 position: relative;
 font-size: 12px;
 display: block;
+margin: 0;
 -webkit-user-select: none;
    -moz-user-select: none;
     -ms-user-select: none;
@@ -1777,7 +1779,7 @@ display: block;
 -webkit-animation-name: reveal-text;
         animation-name: reveal-text;
 color: #FFF;
-white-space: nowrap;
+/* white-space: nowrap; */
 cursor: default
 
 }
@@ -1891,7 +1893,7 @@ to {
 
 .active.fp-completely .reveal-header {
 position: relative;
-font-size: 12px;
+font-size: 50px;
 display: block;
 -webkit-user-select: none;
    -moz-user-select: none;
@@ -1899,7 +1901,7 @@ display: block;
         user-select: none;
 -webkit-animation-name: reveal-header;
         animation-name: reveal-header;
-color: #FFF;
+color:yellow;
 white-space: nowrap;
 cursor: default
 
@@ -1995,6 +1997,18 @@ to {
           transform: scaleX(0);
 }
 }
+
+
+
+/* end of reveal effect */
+
+/* page  text fixed postion */
+
+.fixed_content{
+  position: absolute;
+  bottom: 0;
+}
+
 
 @media (min-width: 1200px){
   #container.container{
@@ -2104,7 +2118,7 @@ top: 0;
 video#myVideo {
     visibility: hidden;
 }
-.active.fp-completely #myVideo {
+#section00 #myVideo {
     visibility: visible;
 }
 .myBackground {
