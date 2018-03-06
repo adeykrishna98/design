@@ -2163,9 +2163,12 @@ top: 0;
 }
 video#myVideo {
     visibility: hidden;
+    
 }
 #section00 #myVideo {
     visibility: visible;
+    z-index: -1;
+
 }
 .myBackground {
   /* background-image: url(../imgs/33.png); */
@@ -2178,11 +2181,15 @@ video#myVideo {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: -1;
+
 }
 .active.fp-completely .myBackground {
   background-image: url(../imgs/33.png);
   transition-delay: 1500ms;
   transform: scale(1.2);
+  z-index: -1;
+
 }
 .active.fp-completely .topic_iq{
   background-image: url(../imgs/11.png);
@@ -2190,6 +2197,8 @@ video#myVideo {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: -1;
+
 }
 .active.fp-completely .about_mantra{
   background-image: url(../imgs/contact_bg.png);
@@ -2197,6 +2206,8 @@ video#myVideo {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: -1;
+
 }
 .info_title{
   color: white;
