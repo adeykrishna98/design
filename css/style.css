@@ -1781,7 +1781,7 @@ video{
 
 .active.fp-completely .reveal-text {
 position: relative;
-font-size: 21px;
+font-size: 18px;
 display: block;
 margin: 0;
 -webkit-user-select: none;
@@ -1794,6 +1794,7 @@ color: #FFF;
 /* white-space: nowrap; */
 cursor: default;
 padding-bottom: 0;
+font-family: proximanova-light-webfont;
 margin-bottom: 40px;
 
 }
@@ -2182,7 +2183,7 @@ video#myVideo {
     z-index: -1;
 
 }
-.myBackground {
+.myBackground,.topic_iq,.eduSport_background,.about_mantra {
   /* background-image: url(../imgs/33.png); */
   transition: transform 500ms;
   background-image: none;
@@ -2194,12 +2195,16 @@ video#myVideo {
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
+    transition-delay: 1500ms;
+
+    transform: scale(1.1);
+
 
 }
 .active.fp-completely .myBackground {
   background-image: url(../imgs/33.png);
   transition-delay: 1500ms;
-  transform: scale(1.2);
+  transform: scale(1.1);
   z-index: -1;
 
 }
@@ -2209,6 +2214,10 @@ video#myVideo {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  transform: scale(1.1);
+  transition-delay: 1500ms;
+
+
   z-index: -1;
 
 }
@@ -2218,6 +2227,10 @@ video#myVideo {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  transform: scale(1.1);
+  transition-delay: 1500ms;
+
+
   z-index: -1;
 
 }
