@@ -2345,6 +2345,16 @@ img.explode-img {
     top: 10%;
 
 }
+.zoozy_bubble{
+  background-image: url(../imgs/zoozy10.png);
+    height: 80%;
+    position: relative;
+    background-size: contain;
+    background-position: 50% 50%;
+    width: 100%;
+    background-repeat: no-repeat;
+    top: 10%;
+}
 
 
 
