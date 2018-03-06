@@ -333,10 +333,12 @@ html {
   position: fixed;
   top: 30px;
   right: 0px;
+  top:20px !important;
   z-index: 999;
   color: #fff;
   font-size: 20px;
   height: 50px;
+  opacity: 1;
 }
 .next_text a{
   width: 370px;

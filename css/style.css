@@ -1908,7 +1908,7 @@ to {
 
 .active.fp-completely .reveal-header {
 position: relative;
-font-size: 72px;
+font-size: 60px;
 display: block;
 -webkit-user-select: none;
    -moz-user-select: none;
@@ -1919,7 +1919,7 @@ display: block;
 color:#ffd800;
 /* white-space: nowrap; */
 cursor: default;
-line-height: 70px;
+line-height: 60px;
 
 }
 
@@ -2334,7 +2334,17 @@ img.explode-img {
 .fp-section.fp-table, .fp-slide.fp-table {
   overflow: hidden;
 }
+.edusport_bubble{
+  background-image: url(../imgs/edu10.png);
+    height: 80%;
+    position: relative;
+    background-size: contain;
+    background-position: 50% 50%;
+    width: 100%;
+    background-repeat: no-repeat;
+    top: 10%;
 
+}
 
 
 
