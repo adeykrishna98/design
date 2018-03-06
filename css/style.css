@@ -2125,7 +2125,7 @@ a.items_tabs.active{
 /* The element to apply the animation to */
 .banner_page , .banner2{
    backface-visibility: hidden;
-   background-color: #f1d51d;
+   background-color:#292828;
    height: 100%;
    position: fixed;
    transform: scaleX(0);
