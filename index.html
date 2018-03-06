@@ -111,7 +111,7 @@
 			<section class="section" id="section00">
 					
 				<div class="">
-						<video autoplay muted loop id="myVideo">
+						<video controls autoplay  muted  loop id="myVideo">
 								<source src="video/Making_a_clay_pot_hd1.mp4" type="video/mp4">
 							</video>
 					<div class="section-content">
@@ -408,6 +408,7 @@
 	<script src="js/background_animation.js"></script>
 	<script>
 		$(window).load(function () {
+
 		$('.section.fp-section').hide();
 		setTimeout(function () {
 		$('.loader').fadeOut();
@@ -418,6 +419,9 @@
 			}, 1500);
 		
 		}, 3000);
+		var video = document.getElementById("myVideo");
+video.autoplay = true;
+video.load(); 
 		// $("#fp-nav ul li a").append('<div class="line_height"></div>');
 		$('#fp-nav ul li a').addClass('items_tabs');
 	});
