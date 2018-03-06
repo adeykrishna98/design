@@ -2474,6 +2474,23 @@ span.pag__text {
     display: none;
     padding-left: 15px;
 }
+.active.fp-completely .eduSport_background{
+  background-image: url(../imgs/mobile_edu.png) !important;
+}
+.active.fp-completely .myBackground {
+  background-image: url(../imgs/mobile_foodtruck.png) !important;
+  
+}
+.active.fp-completely .topic_iq{
+  background-image: url(../imgs/mobile_topic.png) !important;
+  
+}
+.active.fp-completely .about_mantra{
+  background-image: url(../imgs/contact_bg.png);
+  
+}
+
+
 }
 
 @media only screen and (max-width: 321px){
@@ -2511,7 +2528,11 @@ span.pag__text {
 #fp-nav ul li {
   margin: 0 20px 0 10px;
 }
-
+.conatat_page_header{
+  font-size: 22px !important;
+  line-height: 30px !important;
+  text-align: center;
+}
 
 }
 @media only screen and (min-width: 321px) and (max-width:376px){
@@ -2529,6 +2550,20 @@ span.pag__text {
 
     left: 11%;
 }
+.active.fp-completely .reveal-header {
+  font-size: 44px;
+  line-height: 45px;
+}
+.active.fp-completely .reveal-text {
+  font-size: 16px;
+ 
+}
+.conatat_page_header{
+  font-size: 22px !important;
+  line-height: 30px !important;
+  text-align: center;
+}
+
   }
   @media only screen and (min-width: 376px) and (max-width:426px){
     .edu_full_screen_img_body.mantra_bg {
@@ -2545,7 +2580,20 @@ span.pag__text {
 
       left: 15%;
   }
-
+  .active.fp-completely .reveal-header {
+    font-size: 50px;
+   
+    line-height: 50px;
+}
+.active.fp-completely .reveal-text {
+  font-size: 19px;
+ 
+}
+.conatat_page_header{
+  font-size: 28px !important;
+  line-height: 34px !important;
+  text-align: center;
+}
   }
   @media only screen and (min-width: 426px) and (max-width:769px){
     .edu_full_screen_img_body.mantra_bg {
