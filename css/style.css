@@ -1254,7 +1254,17 @@ video{
 
 
 .experience_body_left.our_app h1 {
-  text-align: center;
+  text-align: left;
+  font-size: 36px;
+  text-transform: capitalize;
+  color: rgba(158, 158, 158, 0.47);
+  margin-top: 6px;
+  font-weight: 900;
+}
+
+
+.experience_body_right.our_app h1 {
+  text-align: left;
   font-size: 36px;
   text-transform: capitalize;
   color: rgba(158, 158, 158, 0.47);
@@ -1262,7 +1272,7 @@ video{
   font-weight: 900;
 }
 .experience_body_left.our_app h3{
-  text-align: center;
+  text-align: left;
   margin-bottom: 0;
 }
 
@@ -1782,7 +1792,9 @@ margin: 0;
         animation-name: reveal-text;
 color: #FFF;
 /* white-space: nowrap; */
-cursor: default
+cursor: default;
+padding-bottom: 0;
+margin-bottom: 40px;
 
 }
 
@@ -1794,7 +1806,7 @@ top: 0;
 left: 0;
 right: 0;
 bottom: 0;
-background-color:#F1D51D;
+background-color:#292828;
 -webkit-transform: scaleX(0);
         transform: scaleX(0);
 -webkit-transform-origin: 0 50%;
@@ -1918,7 +1930,7 @@ top: 0;
 left: 0;
 right: 0;
 bottom: 0;
-background-color:#F1D51D;
+background-color:#292828;
 -webkit-transform: scaleX(0);
         transform: scaleX(0);
 -webkit-transform-origin: 0 50%;
@@ -2214,7 +2226,35 @@ video#myVideo {
 }
 .project_view{
   color: yellow;
-  padding-bottom: 24px;
+  /* padding-bottom: 24px; */
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "proximanova-semibold-webfont";
+  letter-spacing: 3px
+}
+.project_view:hover,.project_view:active,.project_view:focus{
+  color: yellow;
+  text-decoration: none;
+}
+.project_view::after{
+  background-color: #f1d51d;
+    position: absolute;
+    top: calc(50%);
+    left: -10px;
+    right: -15px;
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    /* background: #fff; */
+    transition: width .3s;
+}
+.project_view:hover::after {
+  width: 110%;
+}
+.clearfix.visible-xs-block{
+  display: block !important;
 }
 .project_text{
   padding-bottom: 75px;
