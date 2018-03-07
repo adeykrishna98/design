@@ -2366,8 +2366,191 @@ img.explode-img {
 }
 
 
+/* loader css */
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.animating {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.fade-out {
+  animation-name: fade-out;
+}
+
+/* Flex helpers */
+.flex {
+  display: flex;
+}
+.flex.vac {
+  align-items: center;
+}
+.flex.cac {
+  justify-content: center;
+}
+.flex.flex-wrap-wrap {
+  flex-wrap: wrap;
+}
+.flex .row, .flex .full-width {
+  width: 100%;
+}
+.flex.justify-content-end {
+  justify-content: flex-end;
+}
+.flex.flex-column {
+  flex-direction: column;
+}
+.flex.justify-space-around {
+  justify-content: space-around;
+}
+.flex.justify-space-between {
+  justify-content: space-between;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.fade-in {
+  animation-name: fade-in;
+}
 
 
+.overlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 100000000;
+  background: #1c1a19;
+}
+.loader.preloader{
+  background: #1c1a19;
+}
+.overlay .preloader svg {
+  animation-name: preloader-in;
+  animation-duration: 0.8s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+.overlay .preloader.out svg {
+  animation-name: preloader-out;
+}
+.overlay .preloader.animate .outer {
+  animation-name: show100;
+  animation-duration: 2.3s;
+  animation-delay: 1s;
+  animation-timing-function: linear;
+  opacity: 1;
+}
+.overlay .preloader .logo {
+  opacity: 0;
+  animation-delay: 0.5s;
+  display: block;
+  width: 40%;
+  margin: 0px auto;
+  text-align: center;
+  /* background: transparent url(a.svg) no-repeat center center; */
+  background-size: contain;
+  text-indent: -99999px;
+  padding: 5px;
+}
+.overlay .preloader .logo.fade-out {
+  animation-delay: 0.2s;
+  animation-duration: 0.2s;
+}
+
+@keyframes preloader-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  25% {
+    opacity: 1;
+    transform: scale(1.4);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes preloader-out {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  25% {
+    opacity: 1;
+    transform: scale(1.4);
+  }
+  60% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+}
+.loader {
+  position: relative;
+  height: 200px;
+  width: 200px;
+}
+
+.loader svg {
+  position: absolute;
+  top: 0%;
+}
+
+.outer {
+  fill: transparent;
+  stroke: #fff;
+  stroke-width: 2;
+  stroke-dasharray: 99;
+  /* transition: stroke-dashoffset 1s;*/
+  stroke-dashoffset: 0;
+  opacity: 0;
+}
+
+.preloader .outer {
+  stroke-dasharray: 502;
+}
+
+.outer.loading {
+  transition: stroke-dashoffset 0.8s ease;
+}
+
+.background {
+  opacity: 0.5;
+  stroke: #fff;
+  stroke-width: 2;
+  fill: transparent;
+}
+
+.animate .outer {
+  animation-name: show100;
+  animation-duration: 5s;
+  opacity: 1;
+  animation-timing-function: linear;
+}
+
+.loader.animate {
+  transform: rotate(-90deg);
+}
+/* end of loader css */
 
 
 
