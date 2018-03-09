@@ -34,17 +34,28 @@
 							<span class="lines"></span>
 						</label>
 						<label class="full_overlay menu" for="menu"></label>
-						<nav class="nav">
+						<nav class="nav side_nav">
 								<div class="back-image-anim">
-									</div>
-							<ul class="side_menue_nav_ul">
-								<li><a href="index.html" class="cool-link">Home</a></li>
-								<li><a href="aboutmantra.html" class="cool-link">About</a></li>
-								<li><a href="showcase.html" class="cool-link">Case Study</a></li>
-								<li><a href="getquote.html" class="cool-link">Start Project</a></li>
-								<li><a href="#" class="cool-link">Culture</a></li>
-							</ul>
-						</nav>
+				
+								</div>
+								<ul class="side_menue_nav_ul">
+									<li>
+										<a href="index.html" id="home_bg" class="cool-link nav-elem">Home</a>
+									</li>
+									<li>
+										<a href="aboutmantra.html" id="about_bg" class="cool-link nav-elem">About</a>
+									</li>
+									<!-- <li>
+										<a href="showcase.html" id="11" class="cool-link nav-elem">Case Study</a>
+									</li> -->
+									<li>
+										<a href="getquote.html" id="start_project" class="cool-link nav-elem">Start Project</a>
+									</li>
+									<li>
+										<a href="#" id="culture_bg" class="cool-link nav-elem">Culture</a>
+									</li>
+								</ul>
+							</nav>
 					</header>
 			
 					<div class="left_aside_msg">
@@ -71,7 +82,7 @@
 						</a>
 					</div>
 					<div class="next_text edu">
-						<a href="" class="pag-link pag-link__next">
+						<a href="topiciq.html" class="pag-link pag-link__next">
 							<div class="pag-link__inner pag-link__inner--next">
 								<span class="pag__text">Next</span>
 								<svg class="large-arrow large-arrow--next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71 15">
@@ -191,7 +202,7 @@
 									<div class="col-md-5">
 										<div class="client_body">
 											<h3>Client</h3>
-											<p class="edu_link cool-link"><a href="http://zoozy.in/">www.zoozy.in/</a></p>
+											<p class="edu_link cool-link inside_link"><a href="http://zoozy.in/">www.zoozy.in/</a></p>
 											<h3>Domain</h3>
 											<p>interactive campaigns. Digital branding consultancy. Art direction. web design. UX / UI. Development</p>
 										</div>
@@ -390,7 +401,7 @@
 						</div>
 						<div class="zoozy_topic_iq_conatiner">
 							<div class="zoozy_icon_body edu_img">
-								<img src="imgs/22.png" alt="">
+								<!-- <img src="imgs/22.png" alt=""> -->
 								<div class="show_cse_text edu zoozy">
 									<a href="edu.html" class="pag-link pag-link__prevB">
 										<div class="pag-link__inner pag-link__inner--prevB">
@@ -406,7 +417,7 @@
 								</div>
 							</div>
 							<div class="topic_iq_body topic_img">
-								<img src="imgs/11.png" alt="">
+								<!-- <img src="imgs/11.png" alt=""> -->
 								<div class="next_text edu topic_iq">
 									<a href="topiciq.html" class="pag-link pag-link__nextN">
 										<div class="pag-link__inner pag-link__inner--nextN">
@@ -463,6 +474,16 @@
         $('#banner_page').addClass('banner_page');
         setTimeout(function(){  $("#banner_page").removeClass("banner_page"); }, 1500);
     
+	});
+	$('.cool-link').mouseenter(function(){
+        var id = $(this).attr('id');
+        $('.back-image-anim').css({'background':'url(imgs/'+ id +'.png','transform': 'scale(1.05,1.05)','transition-duration':'1000ms','opacity':'0.2'});
+        // ,'background-position':'50% 50%','  background-size: cover':'cover','  background-repeat': 'no-repeat'
+    });
+    $('.cool-link').mouseleave(function(){
+        var id = $(this).attr('id');
+        console.log(id);
+        $('.back-image-anim').css({'transform':'scale(1,1)','opacity':'0','transition-duration':'0ms','background':"black"});
     });
 		</script>
 </html>

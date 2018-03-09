@@ -14,6 +14,12 @@ $(function(){
         "../design/imgs/11.png",
         "../design/imgs/22.png",
         "../design/imgs/33.png",
+        "../design/imgs/casestudy_bg.png",
+        "../design/imgs/culture_bg.png",
+        "../design/imgs/home_bg.png",
+        "../design/imgs/start_project.png",
+        "../design/imgs/culture_bg.png",
+        "../design/imgs/home_bg.png"
     )
     // $(".section.fp-section").hasClass('active',function(){
     //     console.log('aa');

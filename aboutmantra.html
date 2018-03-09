@@ -32,15 +32,28 @@
 							<span class="lines"></span>
 						</label>
 						<label class="full_overlay menu" for="menu"></label>
-						<nav class="nav">
-							<ul class="side_menue_nav_ul">
-								<li><a href="index.html" class="cool-link">Home</a></li>
-								<li><a href="aboutmantra.html" class="cool-link">About</a></li>
-								<li><a href="showcase.html" class="cool-link">Case Study</a></li>
-								<li><a href="getquote.html" class="cool-link">Start Project</a></li>
-								<li><a href="#" class="cool-link">Culture</a></li>
-							</ul>
-						</nav>
+						<nav class="nav side_nav">
+								<div class="back-image-anim">
+				
+								</div>
+								<ul class="side_menue_nav_ul">
+									<li>
+										<a href="index.html" id="home_bg" class="cool-link nav-elem">Home</a>
+									</li>
+									<li>
+										<a href="aboutmantra.html" id="about_bg" class="cool-link nav-elem">About</a>
+									</li>
+									<!-- <li>
+										<a href="showcase.html" id="11" class="cool-link nav-elem">Case Study</a>
+									</li> -->
+									<li>
+										<a href="getquote.html" id="start_project" class="cool-link nav-elem">Start Project</a>
+									</li>
+									<li>
+										<a href="#" id="culture_bg" class="cool-link nav-elem">Culture</a>
+									</li>
+								</ul>
+							</nav>
 					</header>
 			
 					<div class="left_aside_msg">
@@ -198,7 +211,23 @@
 			}, 900);
 		
 		}, 0);
-
+		$("#my_hamburger").click(function(){
+        console.log('adsd');
+        $('#my_hamburger').addClass('is_open');
+        $('#banner_page').addClass('banner_page');
+        setTimeout(function(){  $("#banner_page").removeClass("banner_page"); }, 1500);
+    
+    });
+	$('.cool-link').mouseenter(function(){
+        var id = $(this).attr('id');
+        $('.back-image-anim').css({'background':'url(imgs/'+ id +'.png','transform': 'scale(1.05,1.05)','transition-duration':'1000ms','opacity':'0.2'});
+        // ,'background-position':'50% 50%','  background-size: cover':'cover','  background-repeat': 'no-repeat'
+    });
+    $('.cool-link').mouseleave(function(){
+        var id = $(this).attr('id');
+        console.log(id);
+        $('.back-image-anim').css({'transform':'scale(1,1)','opacity':'0','transition-duration':'0ms','background':"black"});
+    });
 	});
 		</script>
 

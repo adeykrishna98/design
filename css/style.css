@@ -782,6 +782,7 @@ video{
     letter-spacing: 1.5px;
     color: #95989A;
     font-family: 'proximanova-regular-webfont';
+    z-index: 7;
 
 }
 
@@ -1284,7 +1285,7 @@ video{
   background-color: #000;
 }
 .edu_full_screen_img_body{
-  height: 500px;
+  height: 600px;
 }
 .edu_full_screen_img_body img{
   width: 100%;
@@ -2199,6 +2200,13 @@ video#myVideo {
   transition: transform 500ms;
   background-image: none;
 }
+.icons_img_edu{
+  background-image: url(../imgs/icons_edusport.png);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+}
 .active.fp-completely .eduSport_background{
   background-image: url(../imgs/edu_bg.png);
   height: 100%; 
@@ -2493,6 +2501,7 @@ img.explode-img {
   text-indent: -99999px;
   padding: 5px;
 }
+
 .overlay .preloader .logo.fade-out {
   animation-delay: 0.2s;
   animation-duration: 0.2s;
@@ -2579,7 +2588,20 @@ img.explode-img {
 /* end of loader css */
 
 
+/* custom link  */
 
+.inside_link:hover::after {
+  width: 100% !important;
+}
+.inside_link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: width .3s;
+}
+/* end of link */
 
 
 

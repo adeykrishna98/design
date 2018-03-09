@@ -95,6 +95,7 @@ header{
 #menu:checked ~ main {
   transform: translateX(250px);
   transition: transform 500ms ease;
+  
 }
 
 .nav {
