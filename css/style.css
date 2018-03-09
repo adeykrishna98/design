@@ -2113,6 +2113,8 @@ a.items_tabs.active{
   z-index: -1;
   transform: scale(.95,.95);
   opacity: 0;
+  background-position: 50% 50% !important;
+  background-size: cover !important;
 }
 
 .loader-svg {

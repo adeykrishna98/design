@@ -190,7 +190,8 @@ function onDone() {
     });
     $('.cool-link').mouseenter(function(){
         var id = $(this).attr('id');
-        $('.back-image-anim').css({'background':'url(imgs/'+ id +'.png','transform': 'scale(1.05,1.05)','transition-duration':'1000ms','opacity':'0.2'});
+        $('.back-image-anim').css({'background':'url(imgs/'+ id +'.png','transform': 'scale(1.05,1.05)','transition-duration':'ms','opacity':'0.2'});
+        // ,'background-position':'50% 50%','  background-size: cover':'cover','  background-repeat': 'no-repeat'
     });
     $('.cool-link').mouseleave(function(){
         var id = $(this).attr('id');

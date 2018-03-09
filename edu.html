@@ -34,6 +34,9 @@
 			</label>
 			<label class="full_overlay menu" for="menu"></label>
 			<nav class="nav">
+					<div class="back-image-anim">
+
+						</div>
 				<ul class="side_menue_nav_ul">
 					<li><a href="scrollBottomAnimation.html" class="cool-link">Home</a></li>
 					<li><a href="aboutmantra.html" class="cool-link">About</a></li>
@@ -354,6 +357,14 @@
 			}, 900);
 		
 		}, 0);
+
+		$("#my_hamburger").click(function(){
+        console.log('adsd');
+        $('#my_hamburger').addClass('is_open');
+        $('#banner_page').addClass('banner_page');
+        setTimeout(function(){  $("#banner_page").removeClass("banner_page"); }, 1500);
+    
+    });
 
 	});
 		</script>
