@@ -2288,7 +2288,17 @@ video#myVideo {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.culture_back{
+  
+  background-image: url(../imgs/culture_bg.png);
+  background-position: 100% 0%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
+.edu_full_screen_img_body.culture_back{
+  height: 85vh;
+}
 
 .topic_iq_body{
   background-image: url(../imgs/11.png);
@@ -2643,7 +2653,101 @@ img.explode-img {
   background-color: #55a63c;
 
 }
+/* culture page css */
 
+
+.cult_portfolio {
+  height: 200px;
+  background-color: blcak;
+}
+.cult_portfolio h3 {
+  margin: 0;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  color: white;
+}
+.cult_portfolio p {
+  margin: 0;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  color: white;
+  padding-top: 16px;
+
+}
+.cult_blocks{
+  width: 80%;
+  margin: auto;
+  height: 100%;
+}
+.cult_block {
+  padding: 0;
+}
+
+.portfolio-item {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  max-width: 530px;
+  margin: auto auto 1em;
+}
+.portfolio-item .caption {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(33,37,41,.2);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.portfolio-item .caption .caption-content {
+  color: #fff;
+  margin: auto 2em 2em;
+}
+.portfolio-item .caption .caption-content h2 {
+  font-size: .8em;
+  text-transform: uppercase;
+}
+.portfolio-item .caption .caption-content p {
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.portfolio-item:hover .caption {
+  background-color: rgba(29,128,159,.9);
+  -webkit-clip-path: inset(2em);
+  clip-path: inset(2em);
+}
+.portfolio-item .caption {
+  -webkit-transition: -webkit-clip-path .25s ease-out,background-color .7s;
+  -webkit-clip-path: inset(0);
+  clip-path: inset(0);
+}
+.portfolio-item img {
+  -webkit-transition: -webkit-clip-path .25s ease-out;
+  -webkit-clip-path: inset(-1px);
+  clip-path: inset(-1px);
+}
+.portfolio-item:hover img {
+  -webkit-clip-path: inset(2em);
+  clip-path: inset(2em);
+}
+
+@media (min-width: 992px){
+.portfolio-item {
+    max-width: none;
+    margin: 0;
+}
+
+
+
+
+/* end of culture page css */
 /* media queries */
 
 @media only screen and (min-width: 770px) and (max-width: 1024px){
