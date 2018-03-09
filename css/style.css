@@ -2398,7 +2398,18 @@ img.explode-img {
     background-repeat: no-repeat;
     top: 10%;
 }
+.topic_bubble{
+  background-image: url(../imgs/tq_home.png);
+    height: 80%;
+    position: relative;
+    background-size: contain;
+    background-position: 50% 50%;
+    width: 70%;
+    background-repeat: no-repeat;
+    top: 10%;
+    left: 15%;
 
+}
 
 /* loader css */
 
@@ -2602,8 +2613,36 @@ img.explode-img {
   transition: width .3s;
 }
 /* end of link */
+.final_design_image_row.tq_design img {
+  width: 49%;
+  margin-bottom: 5px;
+}
+.edu_sports_buble_red.topic{
+  background-color: #758a32;
 
+}
+.edu_sports_buble_green.topic{
+  background-color: #112136;
 
+}
+.edu_sports_buble_red.zoozy{
+  background-color: #e11b2e;
+}
+.edu_sports_buble_green.zoozy {
+
+  background-color: #f7f6f2;
+  
+}
+.edu_sports_buble_red.edu {
+  
+  background-color: #eb5c10;
+  
+}
+.edu_sports_buble_green.edu {
+
+  background-color: #55a63c;
+
+}
 
 /* media queries */
 
