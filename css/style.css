@@ -1282,7 +1282,7 @@ video{
 }
 /*edu_sports_details_body*/
 .edu_sports_details_body{
-  background-color: #000;
+  background-color: transparent;
 }
 .edu_full_screen_img_body{
   height: 600px;
@@ -1445,7 +1445,6 @@ video{
 }
 .iconography_head_boady{
   overflow: hidden;
-  background-color: #121212;
 }
 .iconography_div_icon{
   width: 20%;
@@ -2480,6 +2479,10 @@ img.explode-img {
 .fade-in {
   animation-name: fade-in;
 }
+div#edu_page .next_text.edu,div#zoo_page  .next_text.edu,div#topic_page .next_text.edu,div#show_page .next_text{
+  z-index: 99;
+ 
+}
 
 
 .overlay {
@@ -2677,12 +2680,16 @@ img.explode-img {
 
 }
 .cult_blocks{
-  width: 80%;
+  width: 100%;
   margin: auto;
   height: 100%;
 }
 .cult_block {
   padding: 0;
+}
+.culture_pics {
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .portfolio-item {
