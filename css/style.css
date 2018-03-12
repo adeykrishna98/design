@@ -982,7 +982,7 @@ video{
 
 
 
-
+/* 
 // .fp-viewing-0 .reveal, .fp-viewing-1 .reveal, .fp-viewing-2 .reveal, .fp-viewing-3 .reveal, .fp-viewing-4 .reveal,
 // .fp-viewing-0 .revealP, .fp-viewing-1 .revealP, .fp-viewing-2 .revealP, .fp-viewing-3 .revealP, .fp-viewing-4 .revealP  {
 //   position: relative;
@@ -999,8 +999,8 @@ video{
 //   bottom: 0;
 //   transform: scaleX(0);
 //   transform-origin: 0% 0% 0px;
-//   will-change: transform;
-
+//   will-change: transform; */
+/* 
 // }
 // .fp-viewing-0 .reveal:before{
 //   animation: reveal0 1.5s 0s ease-in-out forwards;
@@ -1021,10 +1021,10 @@ video{
 // .fp-viewing-4 .reveal:before {
 //   animation: reveal4 1.5s 0s ease-in-out forwards;
 //   background: #F7DF00;
-// }
+// } */
 
 
-// .fp-viewing-0 .revealP:before{
+/* // .fp-viewing-0 .revealP:before{
 //   animation: reveal0 1s 0s ease-in-out forwards;
 //   animation-delay: 0.5s;
 //   background: #95989A;
@@ -1048,11 +1048,11 @@ video{
 //   animation: reveal4 1s 0s ease-in-out forwards;
 //   animation-delay: 0.5s;
 //   background: #95989A;
-// }
+// } */
 
 
 
-// .fp-viewing-0 .reveal .reveal-item, .fp-viewing-1 .reveal .reveal-item, .fp-viewing-2 .reveal .reveal-item, .fp-viewing-3 .reveal .reveal-item, .fp-viewing-4 .reveal .reveal-item ,
+/* // .fp-viewing-0 .reveal .reveal-item, .fp-viewing-1 .reveal .reveal-item, .fp-viewing-2 .reveal .reveal-item, .fp-viewing-3 .reveal .reveal-item, .fp-viewing-4 .reveal .reveal-item ,
 // .fp-viewing-0 .revealP .reveal-item, .fp-viewing-1 .revealP .reveal-item, .fp-viewing-2 .revealP .reveal-item, .fp-viewing-3 .revealP .reveal-item, .fp-viewing-4 .revealP .reveal-item {
 //   opacity: 1;
 //   transition: all 0s .9s ease-in-out;
@@ -1060,14 +1060,14 @@ video{
 
 // .reveal-item {
 //   opacity: 0;
-// }
+// } */
 
 .ui_text_text{
   display: inline-block;
 }
 
 
-// @keyframes reveal0 {
+/* // @keyframes reveal0 {
 //   0% {
 //     transform: scaleX(0);
 //   }
@@ -1146,7 +1146,7 @@ video{
 //     transform: scaleX(0);
 //     transform-origin: 100% 50% 0px;
 //   }
-// }
+// } */
 
 
 
@@ -2751,6 +2751,7 @@ div#edu_page .next_text.edu,div#zoo_page  .next_text.edu,div#topic_page .next_te
     max-width: none;
     margin: 0;
 }
+}
 
 
 
@@ -3069,8 +3070,12 @@ span.pag__text {
   line-height: 34px !important;
   text-align: center;
 }
-  }
-  @media only screen and (min-width: 426px) and (max-width:769px){
+  
+}
+
+
+
+@media only screen and (min-width: 426px) and (max-width:769px){
     .edu_full_screen_img_body.mantra_bg {
       height: 420px;
     }
