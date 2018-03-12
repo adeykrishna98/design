@@ -21,7 +21,22 @@
 	</head>
 	<body style="background:black;">
 
-		
+		<div class="loader">
+			<div class="overlay flex cac vac ">
+					<div>
+						<div class="loader preloader flex vac">
+							<svg width="200" height="200" >
+								<circle class="background" cx="90" cy="90" r="80" transform="rotate(-90, 100, 90)"/>
+								<circle class="outer" cx="90" cy="90" r="80" transform="rotate(-90, 100, 90)"/>
+							</svg>
+							<span class="circle-background"></span>
+							<span class="logo animating fade-in">                
+								STAAK         
+							</span>
+						</div>
+					</div>
+				</div>
+	</div>
 		<div id="banner_page"></div>
 
 
@@ -368,9 +383,12 @@
     	setTimeout(function(){ 
 			 $("#banner_page").removeClass("banner_page"); 
 			 $('#edu_page').fadeIn();
-			}, 900);
+			}, 1500);
 		
-		}, 0);
+		}, 3000);
+		setTimeout(() => {
+			$('.loader').fadeOut();
+		}, 2500);
 
 		$("#my_hamburger").click(function(){
         console.log('adsd');
