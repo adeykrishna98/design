@@ -862,7 +862,7 @@ video{
 .logo_img_container img{
   width: 100%;
 }
-// .logo_img_container img.bluestone{
+/* // .logo_img_container img.bluestone{
 //   width: 21%;
 //   height: 36px;
 //   min-width: 144px;
@@ -893,7 +893,7 @@ video{
 //   // padding: 15.5px;
 // }
 // .logo_img_container img:hover{
-//   -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+//   -webkit-filter: grayscale(0%); 
 //   filter: grayscale(0%);
 //   opacity: 1;
 //   -webkit-transform: scale(1.15) translate3d(0, 0, 0);
@@ -901,7 +901,7 @@ video{
 
 //   -webkit-transition: .3s;
 //   transition: .3s;
-// }
+// } */
 .breaking_points{
     display: inline-block;
     width: 175px;
@@ -2294,11 +2294,6 @@ video#myVideo {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-.edu_full_screen_img_body.culture_back{
-  height: 85vh;
-}
-
 .topic_iq_body{
   background-image: url(../imgs/11.png);
 }
@@ -2746,6 +2741,12 @@ div#edu_page .next_text.edu,div#zoo_page  .next_text.edu,div#topic_page .next_te
   clip-path: inset(2em);
 }
 
+
+
+.achieve_img.topic_desk{
+  width: 100%;
+  height: auto;
+}
 @media (min-width: 992px){
 .portfolio-item {
     max-width: none;
@@ -2766,6 +2767,9 @@ div#edu_page .next_text.edu,div#zoo_page  .next_text.edu,div#topic_page .next_te
   .credits_copy_right {
     right: -115px;
   }
+
+
+
 }
 
 @media only screen and (max-width: 769px){
@@ -2869,7 +2873,6 @@ a.items_tabs.active {
     width: 80%;
     margin: auto;
   }
-
   .credits_copy_right {
     bottom: 2%;
   }
@@ -2965,11 +2968,16 @@ span.pag__text {
   background-image: url(../imgs/contact_bg.png);
   
 }
-
+.edu_full_screen_img_body.culture_back{
+  height: 30vh !important;
+}
 
 }
 
 @media only screen and (max-width: 321px){
+  .edu_full_screen_img_body.culture_back {
+    height: 30vh !important;
+}
   .edu_full_screen_img_body.mantra_bg {
     height: 215px;
   }
@@ -3040,7 +3048,7 @@ span.pag__text {
   text-align: center;
 }
 
-  }
+}
   @media only screen and (min-width: 376px) and (max-width:426px){
     .edu_full_screen_img_body.mantra_bg {
       height: 281px;
