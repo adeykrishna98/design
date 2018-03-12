@@ -2275,12 +2275,7 @@ video#myVideo {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.zoozy_back,.zoozy_img{
-  background-image: url(../imgs/33.png);
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+
 .topic_back,.topic_img{
   background-image: url(../imgs/11.png);
   background-position: 50% 50%;
@@ -2309,6 +2304,12 @@ video#myVideo {
     height: 2px;
     /* background: #fff; */
     transition: width .3s;
+}
+.zoozy_back,.zoozy_img{
+  background-image: url(../imgs/33.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .project_view:hover::after {
   width: 110%;
