@@ -5,21 +5,21 @@ $(function(){
         for (var i = 0; i < arguments.length; i++) {
             images[i] = new Image();
             images[i].src = preload.arguments[i];
-            console.log(images[i].src)
+            // console.log(images[i].src)
         }
     }
 
     //-- usage --//
     preload(
-        "../design/imgs/11.png",
-        "../design/imgs/22.png",
-        "../design/imgs/33.png",
-        "../design/imgs/casestudy_bg.png",
-        "../design/imgs/culture_bg.png",
-        "../design/imgs/home_bg.png",
-        "../design/imgs/start_project.png",
-        "../design/imgs/culture_bg.png",
-        "../design/imgs/home_bg.png"
+        "imgs/11.png",
+        "imgs/22.png",
+        "imgs/33.png",
+        "imgs/casestudy_bg.png",
+        "imgs/culture_bg.png",
+        "imgs/home_bg.png",
+        "imgs/start_project.png",
+        "imgs/culture_bg.png",
+        "imgs/home_bg.png"
     )
     // $(".section.fp-section").hasClass('active',function(){
     //     console.log('aa');
