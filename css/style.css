@@ -2256,7 +2256,7 @@ video#myVideo {
     visibility: hidden;
     
 }
-#section00 #myVideo {
+section#section0 #myVideo {
     visibility: visible;
     z-index: -1;
 
@@ -2845,7 +2845,44 @@ div#edu_page .next_text.edu,div#zoo_page  .next_text.edu,div#topic_page .next_te
 }
 
 @media only screen and (max-width: 769px){
-  .credits_copy_right {
+  /*parallex */
+.parallex{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+
+/*#layer1{
+       background-size: contain;
+   
+}
+#layer2{
+      background-size: contain;
+
+}*/
+#layer3{
+        background-size: contain;
+
+}
+#layer3:hover{
+       background-size: contain; 
+}
+
+/*#layer4{
+  
+    background-size: contain;
+}
+#layer5{
+       background-size: contain;
+
+}
+#layer6{
+        background-size: contain;
+
+}
+  */.credits_copy_right {
     right: -70px;
     display: none;
   }
