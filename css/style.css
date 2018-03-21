@@ -2077,7 +2077,74 @@ a.items_tabs.active{
   
 }
 /* end of side nav line */
+/*parallex */
+.parallex{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
 
+#layer1{
+    z-index: 1;
+    background: url(../imgs/fb.png);
+    background-repeat: no-repeat;
+    left: 10%;
+    top: 45%;
+    opacity: .4;
+   
+}
+#layer2{
+    z-index:2;
+    background:url(../imgs/headphone.png);
+    opacity:.3;
+        background-repeat:no-repeat;
+
+}
+#layer3{
+    z-index:7;
+    background:url(../imgs/normal.png);
+    opacity:.45;
+        background-repeat:no-repeat;
+        left: 10%;
+
+}
+#layer3:hover{
+    z-index:7;
+    background:url(../imgs/hover.png);
+    opacity:.45;
+        background-repeat:no-repeat;
+        left: 10%;
+}
+
+#layer4{
+   z-index: 3;
+    background: url(../imgs/mobile.png);
+    opacity: .4;
+    background-repeat: no-repeat;
+    left: 67%;
+    top: 66%;
+
+}
+#layer5{
+    z-index: 1;
+    background: url(../imgs/phone.png);
+    opacity: .2;
+    background-repeat: no-repeat;
+    left: 50%;
+
+}
+#layer6{
+    z-index: 3;
+    background: url(../imgs/tw.png);
+    opacity: .25;
+    background-repeat: no-repeat;
+    top: 76%;
+    left: 10%;
+
+}
+/*end of parallex*/
 @media (min-width: 1200px){
   #container.container{
       width: 992px;
@@ -2221,9 +2288,13 @@ video#myVideo {
 }
 .active.fp-completely .myBackground {
   background-image: url(../imgs/33.png);
-  transition-delay: 1500ms;
-  transform: scale(1.1);
-  z-index: -1;
+    transition-delay: 1500ms;
+    transform: scale(1.1);
+    z-index: -1;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
 
 }
 .active.fp-completely .topic_iq{
