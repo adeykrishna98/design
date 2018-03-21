@@ -441,7 +441,6 @@ var layer6 = document.getElementById('layer6');
 function update(e){
     var pageX = e.clientX - (window.innerWidth / 2);
     var pageY = e.clientY - (window.innerHeight / 2);
-    console.log(pageX);
     layer1.style.backgroundPosition = (strength1 / window.innerWidth * pageX * -1)+"px "+(strength1  / window.innerHeight * pageY * -1)+"px";
     layer2.style.backgroundPosition = (strength2 / window.innerWidth * pageX * -1)+"px "+(strength2  / window.innerHeight * pageY * -1)+"px";
     layer3.style.backgroundPosition = (strength3 / window.innerWidth * pageX * -1)+"px "+(strength3  / window.innerHeight * pageY * -1)+"px";
