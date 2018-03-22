@@ -2079,72 +2079,73 @@ a.items_tabs.active{
 /* end of side nav line */
 /*parallex */
 .parallex{
-    position:absolute;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
 }
 
 #layer1{
-    z-index: 1;
-    background: url(../imgs/fb.png);
-    background-repeat: no-repeat;
-    left: 10%;
-    top: 45%;
-    opacity: .4;
-   
+  z-index: 1;
+  background: url(../imgs/fb.png);
+  background-repeat: no-repeat;
+  left: 10%;
+  top: 45%;
+  opacity: .4;
+ 
 }
 #layer2{
-    z-index:2;
-    background:url(../imgs/headphone.png);
-    opacity:.3;
-        background-repeat:no-repeat;
+  z-index:2;
+  background:url(../imgs/headphone.png);
+  opacity:.3;
+      background-repeat:no-repeat;
 
 }
 #layer3{
-    z-index:7;
-    background:url(../imgs/normal.png);
-    opacity:.45;
-        background-repeat:no-repeat;
-        left: 10%;
+  z-index:7;
+  background:url(../imgs/normal.png);
+  opacity:.45;
+      background-repeat:no-repeat;
+      left: 10%;
 
 }
 #layer3:hover{
-    z-index:7;
-    background:url(../imgs/hover.png);
-    opacity:.45;
-        background-repeat:no-repeat;
-        left: 10%;
+  z-index:7;
+  background:url(../imgs/hover.png);
+  opacity:.45;
+      background-repeat:no-repeat;
+      left: 10%;
 }
 
 #layer4{
-   z-index: 3;
-    background: url(../imgs/mobile.png);
-    opacity: .4;
-    background-repeat: no-repeat;
-    left: 67%;
-    top: 66%;
+ z-index: 3;
+  background: url(../imgs/mobile.png);
+  opacity: .4;
+  background-repeat: no-repeat;
+  left: 67%;
+  top: 66%;
 
 }
 #layer5{
-    z-index: 1;
-    background: url(../imgs/phone.png);
-    opacity: .2;
-    background-repeat: no-repeat;
-    left: 50%;
+  z-index: 1;
+  background: url(../imgs/phone.png);
+  opacity: .2;
+  background-repeat: no-repeat;
+  left: 50%;
 
 }
 #layer6{
-    z-index: 3;
-    background: url(../imgs/tw.png);
-    opacity: .25;
-    background-repeat: no-repeat;
-    top: 76%;
-    left: 10%;
+  z-index: 3;
+  background: url(../imgs/tw.png);
+  opacity: .25;
+  background-repeat: no-repeat;
+  top: 76%;
+  left: 10%;
 
 }
 /*end of parallex*/
+
 @media (min-width: 1200px){
   #container.container{
       width: 992px;
@@ -2256,7 +2257,7 @@ video#myVideo {
     visibility: hidden;
     
 }
-section#section0 #myVideo {
+#section0 #myVideo {
     visibility: visible;
     z-index: -1;
 
@@ -2288,13 +2289,12 @@ section#section0 #myVideo {
 }
 .active.fp-completely .myBackground {
   background-image: url(../imgs/33.png);
-    transition-delay: 1500ms;
-    transform: scale(1.1);
-    z-index: -1;
-    background-size: contain;
+  transition-delay: 1500ms;
+  transform: scale(1.1);
+  z-index: -1;
+    background-size: cover;
+    background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-position: center;
-
 
 }
 .active.fp-completely .topic_iq{
@@ -2845,44 +2845,7 @@ div#edu_page .next_text.edu,div#zoo_page  .next_text.edu,div#topic_page .next_te
 }
 
 @media only screen and (max-width: 769px){
-  /*parallex */
-.parallex{
-    position:absolute;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-}
-
-/*#layer1{
-       background-size: contain;
-   
-}
-#layer2{
-      background-size: contain;
-
-}*/
-#layer3{
-        background-size: contain;
-
-}
-#layer3:hover{
-       background-size: contain; 
-}
-
-/*#layer4{
-  
-    background-size: contain;
-}
-#layer5{
-       background-size: contain;
-
-}
-#layer6{
-        background-size: contain;
-
-}
-  */.credits_copy_right {
+  .credits_copy_right {
     right: -70px;
     display: none;
   }
