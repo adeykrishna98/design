@@ -1700,7 +1700,7 @@ video{
 .fixed_content,.text_ttf{
   opacity: 0;
 }
-section#section00.active .fixed_content ,section#section0.active .fixed_content,section#section1.active .fixed_content,section#section2.active .fixed_content,section#section3.active .text_ttf{
+section#section00.active .fixed_content ,section#section0.active .fixed_content,section#section1.active .fixed_content,section#section2.active .fixed_content,section#section3.active .fixed_content,section#section4.active .text_ttf{
   transition-delay :1s;
   opacity: 1;
 
