@@ -106,6 +106,7 @@
 						</div>
 						
 						</div>
+					<div id="fixed_box_parallex" style="width:400px; height:300px;z-index:100;  margin-left:33%; position: absolute;">  </div>
 						
 					<!-- <div class="section-content">
 						<div class="fixed_content col-md-8 col-md-offset-1" data-aos="fade-up">
@@ -453,6 +454,15 @@ video.load();
 			$('.loader').fadeOut();
 		}, 3000);
 
+	
+	
+		$("#fixed_box_parallex").mouseenter(function(){
+			$("#layer3").addClass('image_change')	
+});
+$("#fixed_box_parallex").mouseleave(function(){
+			$("#layer3").removeClass('image_change')	
+});
+	
 
 
 		var strength1 = 50;

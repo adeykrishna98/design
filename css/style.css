@@ -2105,18 +2105,17 @@ a.items_tabs.active{
 #layer3{
   z-index:7;
   background:url(../imgs/normal.png);
-  opacity:.45;
+  opacity:.8;
       background-repeat:no-repeat;
       left: 10%;
 
 }
-#layer3:hover{
-  z-index:7;
-  background:url(../imgs/hover.png);
-  opacity:.45;
-      background-repeat:no-repeat;
-      left: 20%;
-      background-size: contain;
+.image_change{
+  z-index:7 !important;
+  background:url(../imgs/hover.png) !important;
+  opacity:.8 !important;
+      background-repeat:no-repeat !important;
+      left: 10% !important;
 }
 
 #layer4{
