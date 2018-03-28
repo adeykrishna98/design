@@ -2090,6 +2090,7 @@ a.items_tabs.active{
   z-index: 1;
   background: url(../imgs/fb.png);
   background-repeat: no-repeat;
+  left: 10%;
   top: 45%;
   opacity: .4;
  
@@ -2107,8 +2108,6 @@ a.items_tabs.active{
   opacity:.45;
       background-repeat:no-repeat;
       left: 10%;
-      top:10%;
-      background-size: contain;
 
 }
 #layer3:hover{
@@ -2116,8 +2115,7 @@ a.items_tabs.active{
   background:url(../imgs/hover.png);
   opacity:.45;
       background-repeat:no-repeat;
-      left: 10%;
-      top:10%;
+      left: 20%;
       background-size: contain;
 }
 
@@ -2144,7 +2142,7 @@ a.items_tabs.active{
   opacity: .25;
   background-repeat: no-repeat;
   top: 76%;
-
+  left: 10%;
 
 }
 /*end of parallex*/
