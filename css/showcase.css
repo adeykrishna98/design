@@ -156,6 +156,7 @@
 }
 
 .slide--1 .slide__img-wrapper {
+  background-size: cover !important;
   background: url("../imgs/22.png") center center no-repeat;
 }
 
@@ -164,6 +165,7 @@
 }
 
 .slide--2 .slide__img-wrapper {
+  background-size: cover !important;
   background: url("../imgs/33.png") center center no-repeat;
 }
 
@@ -172,7 +174,8 @@
 }
 
 .slide--3 .slide__img-wrapper {
-  background: url("../imgs/11.png") center center no-repeat;
+  background-size: cover !important;
+  background: url("../imgs/reli.png") center center no-repeat;
 }
 
 

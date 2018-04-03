@@ -2323,7 +2323,7 @@ video#myVideo {
 
 }
 .active.fp-completely .topic_iq{
-  background-image: url(../imgs/11.png);
+  background-image: url(../imgs/reli.png);
   height: 100%; 
   background-position: center;
   background-repeat: no-repeat;
@@ -2373,8 +2373,8 @@ video#myVideo {
 }
 
 .topic_back,.topic_img{
-  background-image: url(../imgs/11.png);
-  background-position: 50% 50%;
+  background-image: url(../imgs/reli.png);
+  background-position: 50% 0%;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -2386,7 +2386,7 @@ video#myVideo {
   background-repeat: no-repeat;
 }
 .topic_iq_body{
-  background-image: url(../imgs/11.png);
+  background-image: url(../imgs/reli.png);
 }
 .project_view::after{
   background-color: #f1d51d;
@@ -2500,7 +2500,7 @@ img.explode-img {
     top: 10%;
 }
 .topic_bubble{
-  background-image: url(../imgs/tq_home.png);
+  background-image: url(../imgs/reliagre6.png);
     height: 80%;
     position: relative;
     background-size: contain;
@@ -2723,7 +2723,7 @@ div#edu_page .next_text.edu,div#zoo_page  .next_text.edu,div#topic_page .next_te
   margin-bottom: 5px;
 }
 .edu_sports_buble_red.topic{
-  background-color: #758a32;
+  background-color: #0dbb78;
 
 }
 .edu_sports_buble_green.topic{
