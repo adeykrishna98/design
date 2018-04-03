@@ -2137,7 +2137,40 @@ a.items_tabs.active{
 
 }
 /*end of parallex*/
+/*upload images*/
 
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.btn {
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+button.btn.file_button {
+    border: 2px solid #95989a;
+    border-radius: 0;
+}
+
+
+
+
+/*end of upload images*/
 @media (min-width: 1200px){
   #container.container{
       width: 992px;
