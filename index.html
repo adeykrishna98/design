@@ -468,6 +468,7 @@ video.load();
 var strength1 = 50;
 var strength2 = 100;
 var strength3 = 200;
+var strength4 = 20;
 
 var layer1 = document.getElementById('layer1');
 var layer2 = document.getElementById('layer2');
@@ -479,12 +480,12 @@ var layer6 = document.getElementById('layer6');
 function update(e){
     var pageX = e.clientX - (window.innerWidth / 2);
     var pageY = e.clientY - (window.innerHeight / 2);
-    layer1.style.backgroundPosition = (strength1 / window.innerWidth * pageX * -1)+"px "+(strength1  / window.innerHeight * pageY * -1)+"px";
+    layer1.style.backgroundPosition = (strength3 / window.innerWidth * pageX * -1)+"px "+(strength3  / window.innerHeight * pageY * -1)+"px";
     layer2.style.backgroundPosition = (strength2 / window.innerWidth * pageX * -1)+"px "+(strength2  / window.innerHeight * pageY * -1)+"px";
-    layer3.style.backgroundPosition = (strength3 / window.innerWidth * pageX * -1)+"px "+(strength3  / window.innerHeight * pageY * -1)+"px";
+    layer3.style.backgroundPosition = (strength4 / window.innerWidth * pageX * -1)+"px "+(strength4  / window.innerHeight * pageY * -1)+"px";
      layer4.style.backgroundPosition = (strength1 / window.innerWidth * pageX * -1)+"px "+(strength1  / window.innerHeight * pageY * -1)+"px";
     layer5.style.backgroundPosition = (strength2 / window.innerWidth * pageX * -1)+"px "+(strength2  / window.innerHeight * pageY * -1)+"px";
-     layer6.style.backgroundPosition = (strength1 / window.innerWidth * pageX * -1)+"px "+(strength1  / window.innerHeight * pageY * -1)+"px";
+     layer6.style.backgroundPosition = (strength3 / window.innerWidth * pageX * -1)+"px "+(strength3  / window.innerHeight * pageY * -1)+"px";
 
 };
 	</script>

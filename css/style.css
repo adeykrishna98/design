@@ -2090,8 +2090,6 @@ a.items_tabs.active{
   z-index: 1;
   background: url(../imgs/fb.png);
   background-repeat: no-repeat;
-  left: 10%;
-  top: 45%;
   opacity: .4;
  
 }
@@ -2107,7 +2105,6 @@ a.items_tabs.active{
   background:url(../imgs/normal.png);
   opacity:.8;
       background-repeat:no-repeat;
-      left: 10%;
 
 }
 .image_change{
@@ -2115,7 +2112,6 @@ a.items_tabs.active{
   background:url(../imgs/hover.png) !important;
   opacity:.8 !important;
       background-repeat:no-repeat !important;
-      left: 10% !important;
 }
 
 #layer4{
@@ -2123,8 +2119,6 @@ a.items_tabs.active{
   background: url(../imgs/mobile.png);
   opacity: .4;
   background-repeat: no-repeat;
-  left: 67%;
-  top: 66%;
 
 }
 #layer5{
@@ -2132,7 +2126,6 @@ a.items_tabs.active{
   background: url(../imgs/phone.png);
   opacity: .2;
   background-repeat: no-repeat;
-  left: 50%;
 
 }
 #layer6{
@@ -2140,8 +2133,6 @@ a.items_tabs.active{
   background: url(../imgs/tw.png);
   opacity: .25;
   background-repeat: no-repeat;
-  top: 76%;
-  left: 10%;
 
 }
 /*end of parallex*/
