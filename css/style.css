@@ -1179,6 +1179,7 @@ video{
   max-width: 650px;
   margin: 0 auto;
   font-family: "proximanova-regular-webfont";
+  margin-left: 0;
 }
 .bluestone{
   width: 100%;
@@ -1774,8 +1775,8 @@ section#section00.active .fixed_content ,section#section0.active .fixed_content,
 
 
 /*reveal text*/
-.active.fp-completely .reveal-text,
-.active.fp-completely .reveal-text::after {
+.active.fp-completely .reveal-text1,
+.active.fp-completely .reveal-text1::after {
 -webkit-animation-delay: 300ms;
         animation-delay: 300ms;
 -webkit-animation-iteration-count: 1;
@@ -1788,7 +1789,7 @@ section#section00.active .fixed_content ,section#section0.active .fixed_content,
         animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
 }
 
-.active.fp-completely .reveal-text {
+.active.fp-completely .reveal-text1 {
 position: relative;
 font-size: 18px;
 display: block;
@@ -1808,7 +1809,7 @@ margin-bottom: 40px;
 
 }
 
-.active.fp-completely .reveal-text::after {
+.active.fp-completely .reveal-text1::after {
 content: "";
 position: absolute;
 z-index: 999;
@@ -1901,8 +1902,8 @@ to {
 
 
 /* reveal header */
-.active.fp-completely .reveal-header,
-.active.fp-completely .reveal-header::after {
+.active.fp-completely .reveal-header1,
+.active.fp-completely .reveal-header1::after {
 -webkit-animation-delay: 0s;
         animation-delay: 0s;
 -webkit-animation-iteration-count: 1;
@@ -1915,7 +1916,7 @@ to {
         animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
 }
 
-.active.fp-completely .reveal-header {
+.active.fp-completely .reveal-header1 {
 position: relative;
 font-size: 60px;
 display: block;
@@ -1932,7 +1933,7 @@ line-height: 60px;
 
 }
 
-.active.fp-completely .reveal-header::after {
+.active.fp-completely .reveal-header1::after {
 content: "";
 position: absolute;
 z-index: 999;
