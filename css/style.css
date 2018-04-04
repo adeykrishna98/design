@@ -2874,6 +2874,37 @@ div#edu_page .next_text.edu,div#zoo_page  .next_text.edu,div#topic_page .next_te
     right: -70px;
     display: none;
   }
+  #layer1{
+background-size: contain;
+    background-position: 50% 50% !important;
+}
+#layer2{
+background-size: contain;
+    background-position: 50% 50% !important;
+}
+#layer3{
+  
+  
+background-size: contain;
+    background-position: 50% 50% !important;
+
+}
+
+
+#layer4{
+ background-size: contain;
+    background-position: 50% 50% !important;
+
+}
+#layer5{
+background-size: contain;
+    background-position: 50% 50% !important;
+
+}
+#layer6{
+ background-size: contain;
+    background-position: 50% 50% !important;
+}
   h1.headertitle,h1.headertitle_last {
     font-size: 18px;
     margin-bottom: 20px;
