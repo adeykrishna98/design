@@ -2088,14 +2088,14 @@ a.items_tabs.active{
 }
 
 #layer1{
-  z-index: 1;
+  z-index: 2;
   background: url(../imgs/fb1.png);
   background-repeat: no-repeat;
   opacity: .4;
  
 }
 #layer2{
-  z-index:2;
+  z-index:3;
   background:url(../imgs/headphone1.png);
   opacity:.3;
       background-repeat:no-repeat;
@@ -2116,23 +2116,30 @@ a.items_tabs.active{
 }
 
 #layer4{
- z-index: 3;
+ z-index: 4;
   background: url(../imgs/mobile1.png);
   opacity: .4;
   background-repeat: no-repeat;
 
 }
 #layer5{
-  z-index: 1;
+  z-index: 5;
   background: url(../imgs/phone1.png);
   opacity: .2;
   background-repeat: no-repeat;
 
 }
 #layer6{
-  z-index: 3;
+  z-index: 6;
   background: url(../imgs/tw1.png);
   opacity: .25;
+  background-repeat: no-repeat;
+
+}
+#layer7{
+  z-index: 1;
+  background: url(../imgs/cx.png);
+  opacity: 1;
   background-repeat: no-repeat;
 
 }
@@ -2892,6 +2899,11 @@ background-size: contain;
 
 
 #layer4{
+ background-size: contain;
+    background-position: 50% 50% !important;
+
+}
+#layer7{
  background-size: contain;
     background-position: 50% 50% !important;
 

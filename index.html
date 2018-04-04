@@ -104,6 +104,8 @@
 						</div>
 						<div class="parallex" id="layer6">
 						</div>
+						<div class="parallex" id="layer7">
+						</div>
 						
 						</div>
 					<div id="fixed_box_parallex" style="width:400px; height:300px;z-index:100;  margin-left:33%; position: absolute;">  </div>
@@ -476,6 +478,7 @@ var layer3 = document.getElementById('layer3');
 var layer4 = document.getElementById('layer4');
 var layer5 = document.getElementById('layer5');
 var layer6 = document.getElementById('layer6');
+var layer7 = document.getElementById('layer7');
 
 function update(e){
     var pageX = e.clientX - (window.innerWidth / 2);
@@ -486,6 +489,7 @@ function update(e){
      layer4.style.backgroundPosition = (strength1 / window.innerWidth * pageX * -1)+"px "+(strength1  / window.innerHeight * pageY * -1)+"px";
     layer5.style.backgroundPosition = (strength2 / window.innerWidth * pageX * -1)+"px "+(strength2  / window.innerHeight * pageY * -1)+"px";
      layer6.style.backgroundPosition = (strength3 / window.innerWidth * pageX * -1)+"px "+(strength3  / window.innerHeight * pageY * -1)+"px";
+     layer7.style.backgroundPosition = (strength4 / window.innerWidth * pageX * -1)+"px "+(strength4  / window.innerHeight * pageY * -1)+"px";
 
 };
 	</script>
