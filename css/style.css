@@ -2374,7 +2374,7 @@ video#myVideo {
 
 .topic_back,.topic_img{
   background-image: url(../imgs/reli.png);
-  background-position: 50% 0%;
+  background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -2500,7 +2500,7 @@ img.explode-img {
     top: 10%;
 }
 .topic_bubble{
-  background-image: url(../imgs/reliagre6.png);
+  background-image: url(../imgs/religare_mian.png);
     height: 80%;
     position: relative;
     background-size: contain;
