@@ -3016,6 +3016,10 @@ a.items_tabs.active {
     width: 80%;
     margin: auto;
   }
+  .edu_sports_buble_heading {
+    left: 150px;
+    
+}
 
   
 
@@ -3209,6 +3213,10 @@ span.pag__text {
   .edu_full_screen_img_body.mantra_bg {
     height: 215px;
   }
+  .edu_sports_buble_heading {
+    left: 48px;
+    top: 22px;
+}
   .textpara_last {
     padding-bottom: 0;
   }
