@@ -2231,7 +2231,9 @@ button.btn.file_button {
 .loader {
 	position: fixed;
 	left: 0px;
-	top: 0px;
+  top: 0px;
+  right: 0px;
+  bottom:0px;
 	width: 100%;
 	height: 100%;
   z-index: 9999;
@@ -2664,13 +2666,15 @@ div#edu_page .next_text.edu,div#zoo_page  .next_text.edu,div#topic_page .next_te
 }
 .loader {
   position: relative;
-  height: 200px;
-  width: 200px;
+ 
 }
 
 .loader svg {
   position: absolute;
   top: 0%;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
 }
 
 .outer {
@@ -3013,6 +3017,41 @@ a.items_tabs.active {
     width: 80%;
     margin: auto;
   }
+  
+
+.edu_full_screen_img_body {
+  height: 15em;
+}
+.edu_sports_buble_container {
+  
+  height: 360px;
+  
+}
+.edu_sports_buble_red {
+  width: 300px;
+  height: 300px;
+}
+.edu_sports_buble_green_body {
+  width: 300px;
+  
+}
+.achieve_img {
+
+  height: 360px;
+ 
+}
+.colorgraphy_color_circle {
+  width: 60px;
+  height: 60px;
+ 
+}
+.zoozy_icon_body, .topic_iq_body {
+  
+  height: 150px;
+}
+.pag-link__nextN {
+  right: 150px !important;
+}
   .credits_copy_right {
     bottom: 2%;
   }
