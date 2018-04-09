@@ -2666,15 +2666,14 @@ div#edu_page .next_text.edu,div#zoo_page  .next_text.edu,div#topic_page .next_te
 }
 .loader {
   position: relative;
+ height: 200px;
+ width: 200px;
  
 }
 
 .loader svg {
   position: absolute;
-  top: 0%;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
+   top: 0%
 }
 
 .outer {
@@ -3017,6 +3016,7 @@ a.items_tabs.active {
     width: 80%;
     margin: auto;
   }
+
   
 
 .edu_full_screen_img_body {
