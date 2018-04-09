@@ -3022,6 +3022,55 @@ a.items_tabs.active {
   width: 100%;
 
 }
+  #layer1{
+background-size: contain;
+background: url(../imgs/mobile_tw.png) !important;
+    background-position: 50% 0% !important;
+    background-repeat: no-repeat !important;
+}
+#layer2{
+background-size: contain;
+background: url(../imgs/mobile_hp.png) !important;
+background-repeat: no-repeat !important;
+    background-position: 50% 0% !important;
+}
+#layer3{
+  
+  
+background-size: contain;
+background: url(../imgs/mobile_main.png) !important;
+
+    background-position: 50% 0% !important;
+    background-repeat: no-repeat !important;
+}
+
+
+#layer4{
+ background-size: contain;
+ background: url(../imgs/mobile_mb.png) !important;
+ background-repeat: no-repeat !important;
+    background-position: 50% 0% !important;
+
+}
+#layer7{
+  display: none;
+ background-size: contain;
+    background-position: 50% 0% !important;
+    background-repeat: no-repeat !important;
+}
+#layer5{
+background-size: contain;
+background: url(../imgs/mobile_fp.png) !important;
+background-repeat: no-repeat !important;
+    background-position: 50% 0% !important;
+
+}
+#layer6{
+ background-size: contain;
+ background: url(../imgs/mobile_ph.png) !important;
+ background-repeat: no-repeat !important;
+    background-position: 50% 0% !important;
+}
 .explode {
 
   width: 100%;
