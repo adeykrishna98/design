@@ -214,10 +214,10 @@ function onDone() {
         return orig.apply(this, arguments);
     }
 })();
-$('.section.fp-section').on('classadded', function(ev, newClasses) {
-    if(newClasses=='active'){
-    $('#banner_page').addClass('banner_page');
-    setTimeout(function(){  $("#banner_page").removeClass("banner_page"); }, 1500);
-    };
+// $('.section.fp-section').on('classadded', function(ev, newClasses) {
+//     if(newClasses=='active'){
+//     $('#banner_page').addClass('banner_page');
+//     setTimeout(function(){  $("#banner_page").removeClass("banner_page"); }, 1500);
+//     };
 
-});
+// });
