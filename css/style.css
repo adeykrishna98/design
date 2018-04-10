@@ -3020,8 +3020,19 @@ a.items_tabs.active {
     left: 150px;
     
 }
+.zoozy_icon_body, .topic_iq_body {
+  width: 100%;
+}
+div#topic_page .edu_sports_buble_heading {
+  left: 100px;
+}
+div#topic_page .edu_sports_buble_heading h1,div#zoo_page .edu_sports_buble_heading h1 {
+  font-size: 42px;
+  color: #fff;
+}{
+    font-size: 42px;
+}  
 
-  
 
 .edu_full_screen_img_body {
   height: 15em;

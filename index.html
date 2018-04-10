@@ -19,7 +19,7 @@
 	<link rel="stylesheet" href="css/background_animation.css">
 </head>
 
-<body id="is_changes">
+<body id="is_changes" style="background:black;">
 	<div class="loader">
 			<div class="overlay flex cac vac ">
 					<div>
@@ -37,8 +37,8 @@
 				</div>
 	</div>
 
-	<div id="main-page">
-		<!-- <div id="banner_page" class=""></div> -->
+	<div id="main-page" style="display:none;">
+		<div id="banner_page" class=""></div>
 
 		<header>
 			<input type="checkbox" id="menu" name="dismiss_menu_overlay" />
@@ -442,10 +442,12 @@
 		$('#banner_page').addClass('banner_page');
     	setTimeout(function(){ 
 			 $("#banner_page").removeClass("banner_page"); 
+			 
+			 $('#main-page').fadeIn();
 			 $('.section.fp-section').show();
-			}, 1500);
+			}, 1000);
 		
-		}, 3000);
+		}, 2500);
 		var video = document.getElementById("myVideo");
 video.autoplay = true;
 video.load(); 
@@ -456,14 +458,6 @@ video.load();
 			$('.loader').fadeOut();
 		}, 3000);
 
-	
-	
-// 		$("#fixed_box_parallex").mouseenter(function(){
-// 			$("#layer3").addClass('image_change')	
-// });
-// $("#fixed_box_parallex").mouseleave(function(){
-// 			$("#layer3").removeClass('image_change')	
-// });
 	
 
 
