@@ -2426,7 +2426,7 @@ video#myVideo {
   padding-bottom: 75px;
 }
 .edu_info{
-  padding-bottom: 0;
+  padding-bottom: 16px;
 }
 .pixellate-image {
   margin: auto;
@@ -2847,7 +2847,9 @@ div#edu_page .next_text.edu,div#zoo_page  .next_text.edu,div#topic_page .next_te
   -webkit-clip-path: inset(2em);
   clip-path: inset(2em);
 }
-
+div#zoo_page .next_text.edu{
+  opacity: 1;
+}
 
 
 .achieve_img.topic_desk{
@@ -3221,6 +3223,7 @@ span.pag__text {
   .edu_full_screen_img_body.culture_back {
     height: 30vh !important;
 }
+
   .edu_full_screen_img_body.mantra_bg {
     height: 215px;
   }
@@ -3269,6 +3272,9 @@ span.pag__text {
 @media only screen and (min-width: 321px) and (max-width:376px){
   .edu_full_screen_img_body.mantra_bg {
     height: 234px;
+  }
+  .left_aside_msg span {
+    font-size: 8px;
   }
   .textpara_last {
     padding-bottom: 0;
