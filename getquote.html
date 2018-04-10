@@ -27,23 +27,23 @@
 
 <body>
 
-		<div class="loader">
-				<div class="overlay flex cac vac ">
-						<div>
-							<div class="loader preloader flex vac">
-								<svg width="200" height="200" >
-									<circle class="background" cx="90" cy="90" r="80" transform="rotate(-90, 100, 90)"/>
-									<circle class="outer" cx="90" cy="90" r="80" transform="rotate(-90, 100, 90)"/>
-								</svg>
-								<span class="circle-background"></span>
-								<span class="logo animating fade-in">                
-									STAAK         
-								</span>
-							</div>
-						</div>
-					</div>
-			
+	<div class="loader">
+		<div class="overlay flex cac vac ">
+			<div>
+				<div class="loader preloader flex vac">
+					<svg width="200" height="200">
+						<circle class="background" cx="90" cy="90" r="80" transform="rotate(-90, 100, 90)" />
+						<circle class="outer" cx="90" cy="90" r="80" transform="rotate(-90, 100, 90)" />
+					</svg>
+					<span class="circle-background"></span>
+					<span class="logo animating fade-in">
+						STAAK
+					</span>
+				</div>
+			</div>
 		</div>
+
+	</div>
 
 	<!-- <div id="banner_page"></div> -->
 	<header>
@@ -55,27 +55,27 @@
 		</label>
 		<label class="full_overlay menu" for="menu"></label>
 		<nav class="nav side_nav">
-				<div class="back-image-anim">
+			<div class="back-image-anim">
 
-				</div>
-				<ul class="side_menue_nav_ul">
-					<li>
-						<a href="index.html" id="home_bg" class="cool-link nav-elem">Home</a>
-					</li>
-					<li>
-						<a href="aboutmantra.html" id="about_bg" class="cool-link nav-elem">About</a>
-					</li>
-					<!-- <li>
+			</div>
+			<ul class="side_menue_nav_ul">
+				<li>
+					<a href="index.html" id="home_bg" class="cool-link nav-elem">Home</a>
+				</li>
+				<li>
+					<a href="aboutmantra.html" id="about_bg" class="cool-link nav-elem">About</a>
+				</li>
+				<!-- <li>
 						<a href="showcase.html" id="11" class="cool-link nav-elem">Case Study</a>
 					</li> -->
-					<li>
-						<a href="getquote.html" id="start_project" class="cool-link nav-elem">Start Project</a>
-					</li>
-					<li>
-						<a href="culture.html" id="culture_bg" class="cool-link nav-elem">Culture</a>
-					</li>
-				</ul>
-			</nav>
+				<li>
+					<a href="getquote.html" id="start_project" class="cool-link nav-elem">Start Project</a>
+				</li>
+				<li>
+					<a href="culture.html" id="culture_bg" class="cool-link nav-elem">Culture</a>
+				</li>
+			</ul>
+		</nav>
 	</header>
 
 	<div class="left_aside_msg">
@@ -106,7 +106,8 @@
 
 
 
-	<div class="container" style="opacity:.01" id="quote_new">
+	<div class="container" style="display:none" id="quote_new">
+			<div id="banner_page"></div>
 
 		<div class="fs-form-wrap" id="fs-form-wrap">
 			<!-- <div class="fs-title">
@@ -120,7 +121,7 @@
 					</li>
 					<li>
 						<label class="fs-field-label fs-anim-upper" for="q2" data-info="We won't send you spam, we promise...">Email</label>
-						<input class="fs-anim-lower" id="q2" name="q2" type="email" placeholder="dean@road.us" required/ >
+						<input class="fs-anim-lower" id="q2" name="q2" type="email" placeholder="dean@road.us" required/>
 					</li>
 					<li data-input-trigger>
 						<label class="fs-field-label fs-anim-upper" for="q3" data-info="This will help us know what kind of service you need">I’m interested in</label>
@@ -167,16 +168,16 @@
 					</li> -->
 					<li>
 						<label class="fs-field-label fs-anim-upper" for="q4">Tell us how you imagine your project
-                        </label>
+						</label>
 						<textarea class="fs-anim-lower" id="q4" name="q4" placeholder="Describe here"></textarea>
 
 						<div class="upload-btn-wrapper">
-  						<button class="btn file_button">Drop your sample files here
-</button>
- 						 <input type="file" name="myfile" />
+							<button class="btn file_button">Drop your sample files here
+							</button>
+							<input type="file" name="myfile" />
 						</div>
 					</li>
-					
+
 				</ol>
 				<!-- /fs-fields -->
 				<button class="fs-submit button_btn animated-button thar-one" type="submit">Get quote</button>
@@ -201,37 +202,49 @@
 	<script>
 		(function () {
 			$(window).load(function () {
-				
+
 				setTimeout(function () {
 					$('.loader').fadeOut();
 					$('#banner_page').addClass('banner_page');
 					setTimeout(function () {
 						$("#banner_page").removeClass("banner_page");
-						$('#quote_prev,#quote_new').css('opacity','1');
+						$('#quote_prev,#quote_new').fadeIn();
 					}, 1500);
 
 				}, 3000);
 				setTimeout(() => {
-			$('.loader').fadeOut();
-		}, 2500);
+					$('.loader').fadeOut();
+				}, 2500);
 			});
-			$("#my_hamburger").click(function(){
-        console.log('adsd');
-        $('#my_hamburger').addClass('is_open');
-        $('#banner_page').addClass('banner_page');
-		setTimeout(function(){  $("#banner_page").removeClass("banner_page"); }, 1500);
-		$('.cool-link').mouseenter(function(){
-        var id = $(this).attr('id');
-        $('.back-image-anim').css({'background':'url(imgs/'+ id +'.png','transform': 'scale(1.05,1.05)','transition-duration':'1000ms','opacity':'0.2'});
-        // ,'background-position':'50% 50%','  background-size: cover':'cover','  background-repeat': 'no-repeat'
-    });
-    $('.cool-link').mouseleave(function(){
-        var id = $(this).attr('id');
-        console.log(id);
-        $('.back-image-anim').css({'transform':'scale(1,1)','opacity':'0','transition-duration':'0ms','background':"black"});
-    });
-    
-    });
+			$("#my_hamburger").click(function () {
+				console.log('adsd');
+				$('#my_hamburger').addClass('is_open');
+				$('#banner_page').addClass('banner_page');
+				setTimeout(function () {
+					$("#banner_page").removeClass("banner_page");
+				}, 1500);
+				$('.cool-link').mouseenter(function () {
+					var id = $(this).attr('id');
+					$('.back-image-anim').css({
+						'background': 'url(imgs/' + id + '.png',
+						'transform': 'scale(1.05,1.05)',
+						'transition-duration': '1000ms',
+						'opacity': '0.2'
+					});
+					// ,'background-position':'50% 50%','  background-size: cover':'cover','  background-repeat': 'no-repeat'
+				});
+				$('.cool-link').mouseleave(function () {
+					var id = $(this).attr('id');
+					console.log(id);
+					$('.back-image-anim').css({
+						'transform': 'scale(1,1)',
+						'opacity': '0',
+						'transition-duration': '0ms',
+						'background': "black"
+					});
+				});
+
+			});
 			var formWrap = document.getElementById('fs-form-wrap');
 
 			[].slice.call(document.querySelectorAll('select.cs-select')).forEach(function (el) {
